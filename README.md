@@ -1,8 +1,8 @@
 # Enoch Promising Signals
 
-Private companion repository for bounded Enoch research results that looked useful but did **not** qualify for the public paper corpus.
+Public companion repository for bounded Enoch research results that looked useful but did **not** qualify for the public paper corpus.
 
-These records are **not validated papers**, **not peer reviewed**, and **not publication-positive Enoch corpus artifacts**. They preserve local/toy/small-scale evidence, stop reasons, and next-test ideas so promising leads do not rot when the next useful test exceeds local compute or wall-clock limits.
+These records are **not validated papers**, **not peer reviewed**, **not publication-positive Enoch corpus artifacts**, and **not the paper corpus**. They preserve local/toy/small-scale evidence, stop reasons, and next-test ideas so promising leads do not rot when the next useful test exceeds local compute or wall-clock limits.
 
 ## Current seed batch
 
@@ -26,7 +26,7 @@ A record does **not** belong here when it is paper-positive, already imported in
 
 ## Public-release rule
 
-This repository is private until the lane is stable. Publishing any entry requires a separate operator decision and a fresh review of the underlying evidence. Exporting here is preservation, not endorsement.
+This repository is public, but every entry remains a preservation record rather than an endorsement. Promoting a signal into the paper corpus requires a separate future run that independently becomes paper-positive and passes the normal paper/corpus release gates.
 
 ## Regeneration
 
