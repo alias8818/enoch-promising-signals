@@ -41,7 +41,7 @@ Stop this run as proxy-only, no-paper evidence; next action is a bounded real-co
 
 ## Evidence references
 
-- Artifact root: `<control-plane-state>/projects/position-weighted-multi-hot-objective-for-token-superposition-24789cd22f88`
+- Artifact root: `<local-path>/projects/position-weighted-multi-hot-objective-for-token-superposition-24789cd22f88`
 - `run_notes.md`
 - `.enoch/project_decision.json`
 - `.enoch/metrics.json`

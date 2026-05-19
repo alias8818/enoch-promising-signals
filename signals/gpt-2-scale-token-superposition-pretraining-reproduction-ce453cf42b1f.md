@@ -41,7 +41,7 @@ Stop this worker run as a proxy-only non-paper result; run a bounded GPT-2-small
 
 ## Evidence references
 
-- Artifact root: `<control-plane-state>/projects/gpt-2-scale-token-superposition-pretraining-reproduction-ce453cf42b1f`
+- Artifact root: `<local-path>/projects/gpt-2-scale-token-superposition-pretraining-reproduction-ce453cf42b1f`
 - `run_notes.md`
 - `.enoch/project_decision.json`
 - `.enoch/metrics.json`

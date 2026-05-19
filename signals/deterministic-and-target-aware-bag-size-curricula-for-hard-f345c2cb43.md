@@ -41,7 +41,7 @@ Stop this follow-up as a Tier 1 direct early falsification: target_aware missed 
 
 ## Evidence references
 
-- Artifact root: `<control-plane-state>/projects/deterministic-and-target-aware-bag-size-curricula-for-hard-f345c2cb43`
+- Artifact root: `<local-path>/projects/deterministic-and-target-aware-bag-size-curricula-for-hard-f345c2cb43`
 - `run_notes.md`
 - `.enoch/project_decision.json`
 - `.enoch/metrics.json`

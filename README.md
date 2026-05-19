@@ -4,15 +4,15 @@ Public companion repository for bounded Enoch research results that looked usefu
 
 These records are **not validated papers**, **not peer reviewed**, **not publication-positive Enoch corpus artifacts**, and **not the paper corpus**. They preserve local/toy/small-scale evidence, stop reasons, and next-test ideas so promising leads do not rot when the next useful test exceeds local compute or wall-clock limits.
 
-## Current seed batch
+## Current export
 
-The first seed export contains Token Superposition-related signals from the Enoch control plane:
+The current export contains 245 deterministic, contract-clean signals from the Enoch control plane:
 
 - `useful_signal`: bounded local evidence worth preserving.
 - `promising_if_scaled`: a lead that may deserve larger-compute validation.
 - `compute_scale_blocked`: a lead where the next meaningful test exceeds current local compute/time limits.
 
-The generated index is in [`signals/index.md`](signals/index.md). Machine-readable source of truth is [`data/signals.jsonl`](data/signals.jsonl), validated against [`schemas/promising-signal.schema.json`](schemas/promising-signal.schema.json).
+The generated index is in [`signals/index.md`](signals/index.md). Machine-readable source of truth is [`data/signals.jsonl`](data/signals.jsonl), with count/status accounting in [`data/manifest.json`](data/manifest.json), validated against [`schemas/promising-signal.schema.json`](schemas/promising-signal.schema.json).
 
 ## What belongs here
 
@@ -33,10 +33,10 @@ This repository is public, but every entry remains a preservation record rather 
 The exporter lives in the system repo:
 
 ```bash
-python3 scripts/export_promising_signals.py --output-repo ../enoch-promising-signals --project-id <project-id>
+python3 scripts/export_promising_signals.py --output-repo ../enoch-promising-signals --clean-only
 ```
 
-The exporter fails closed if required fields or do-not-overclaim disclaimers are missing. Validate the generated repository with:
+The exporter fails closed for selected rows with missing required fields. For full backfills, `--clean-only` exports only rows that satisfy the deterministic public record contract and records skipped bucket counts in `data/manifest.json`. Validate the generated repository with:
 
 ```bash
 python3 scripts/validate.py

@@ -8,7 +8,8 @@ This repo is a parking lane for bounded useful research signals. It is intention
 2. A signal is not peer reviewed.
 3. A signal is not publication-positive unless a separate future run independently becomes paper-positive.
 4. Public evidence is not copied by this export; local artifact paths remain local-only references.
-5. Missing required fields fail the export.
+5. Missing required fields fail selected-row exports and are skipped by the full `--clean-only` backfill.
+6. `data/manifest.json` is the count/status contract for exported rows and skipped backfill buckets.
 
 ## Included statuses
 
@@ -22,6 +23,15 @@ This repo is a parking lane for bounded useful research signals. It is intention
 
 The exporter excludes rows with live paper rows, corpus imports, `write_needed=true`, paper-positive states, unsupported hard negatives, and rows missing required claim boundaries.
 
-## Token Superposition seed notes
+## Current full backfill
 
-The seed batch queried the Token Superposition-related project set around `https://arxiv.org/abs/2605.06546`. Four rows were exportable. Unsupported follow-up rows from the same branch were intentionally excluded because this repository preserves promising signals, not every no-paper result.
+The current full backfill exported 245 rows that already satisfy the deterministic public record contract.
+
+`data/manifest.json` records the selection summary:
+
+- `export_cleanly_now`: exported rows.
+- `missing_required_evidence_or_fields`: promising rows that remain parked until source/evidence fields are recovered.
+- `excluded_paper_or_corpus`: rows that belong to the paper/corpus lane instead.
+- `hard_negative_or_stale`: rows that are not promising-signal statuses.
+
+Unsupported follow-up rows and missing-source rows are intentionally excluded because this repository preserves contract-clean promising signals, not every no-paper result.

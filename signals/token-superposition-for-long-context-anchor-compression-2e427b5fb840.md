@@ -41,7 +41,7 @@ Stop this run as a proxy-only negative paper-gate result; run one bounded direct
 
 ## Evidence references
 
-- Artifact root: `<control-plane-state>/projects/token-superposition-for-long-context-anchor-compression-2e427b5fb840`
+- Artifact root: `<local-path>/projects/token-superposition-for-long-context-anchor-compression-2e427b5fb840`
 - `run_notes.md`
 - `.enoch/project_decision.json`
 - `.enoch/metrics.json`

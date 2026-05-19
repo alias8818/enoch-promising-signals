@@ -8,6 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "signals.jsonl"
+MANIFEST = ROOT / "data" / "manifest.json"
 SCHEMA = ROOT / "schemas" / "promising-signal.schema.json"
 REQUIRED = {
     "schema_version",
@@ -61,8 +62,12 @@ def main() -> int:
     if not SCHEMA.exists():
         print(f"missing {SCHEMA.relative_to(ROOT)}", file=sys.stderr)
         return 1
+    if not MANIFEST.exists():
+        print(f"missing {MANIFEST.relative_to(ROOT)}", file=sys.stderr)
+        return 1
     failures = []
     ids = set()
+    status_counts: dict[str, int] = {}
     for line_no, line in enumerate(DATA.read_text(encoding="utf-8").splitlines(), start=1):
         if not line.strip():
             continue
@@ -71,9 +76,22 @@ def main() -> int:
         if project_id in ids:
             failures.append({"project_id": project_id, "issues": ["project_id:duplicate"]})
         ids.add(project_id)
+        status = str(record.get("status") or "")
+        status_counts[status] = status_counts.get(status, 0) + 1
         issues = issues_for(record)
         if issues:
             failures.append({"project_id": project_id, "issues": issues})
+    manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    if manifest.get("schema_version") != "enoch_promising_signal_manifest_v1":
+        failures.append({"project_id": "manifest", "issues": ["schema_version:invalid"]})
+    if manifest.get("record_count") != len(ids):
+        failures.append({"project_id": "manifest", "issues": [f"record_count:{manifest.get('record_count')} != {len(ids)}"]})
+    if manifest.get("status_counts") != {key: status_counts[key] for key in sorted(status_counts)}:
+        failures.append({"project_id": "manifest", "issues": ["status_counts:drift"]})
+    if manifest.get("project_ids") != sorted(ids):
+        failures.append({"project_id": "manifest", "issues": ["project_ids:drift"]})
+    if manifest.get("public_evidence_copied") is not False:
+        failures.append({"project_id": "manifest", "issues": ["public_evidence_copied:must_be_false"]})
     if failures:
         print(json.dumps({"error": "validation_failed", "failures": failures}, indent=2), file=sys.stderr)
         return 1
