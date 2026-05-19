@@ -5,7 +5,7 @@
     "promising_if_scaled",
     "useful_signal"
   ],
-  "generated_at": "2026-05-19T18:32:42.404285+00:00",
+  "generated_at": "2026-05-19T19:07:09.390881+00:00",
   "index_file": "signals/index.md",
   "project_ids": [
     "1-bit-residual-channel-pretraining-for-gpt-2-small-class-e082079e4a3f",
@@ -50,6 +50,7 @@
     "commit-reveal-shard-lottery-for-volunteer-gradient-validation-385eda026ea7",
     "commit-reveal-spot-check-gradient-verification-for-volunteer-training-c7bbf4bdc595",
     "committee-lottery-audits-for-volunteer-gradient-integrity-0f0bcb35374d",
+    "concurrent-signed-witness-soak-for-anchored-agent-ledgers-d5e8aa1740",
     "confidence-gated-cascade-with-kv-prefix-reuse-for-local-serving-abc42e4dcc77",
     "confidence-gated-local-cascade-router-5f78a44d1f",
     "confidence-router-cascade-for-vram-reduction-ee2ba6c3c184",
@@ -255,18 +256,18 @@
     "verifiable-gradient-lottery-for-home-volunteer-training-ceaa3f86f272"
   ],
   "public_evidence_copied": false,
-  "record_count": 245,
+  "record_count": 246,
   "schema_file": "schemas/promising-signal.schema.json",
   "schema_version": "enoch_promising_signal_manifest_v1",
   "selection_summary": {
     "excluded_paper_or_corpus": 269,
-    "export_cleanly_now": 245,
+    "export_cleanly_now": 246,
     "hard_negative_or_stale": 911,
     "missing_required_evidence_or_fields": 267,
-    "total_candidate_rows": 1692
+    "total_candidate_rows": 1693
   },
   "status_counts": {
     "compute_scale_blocked": 38,
-    "useful_signal": 207
+    "useful_signal": 208
   }
 }

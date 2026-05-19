@@ -25,7 +25,7 @@ The exporter excludes rows with live paper rows, corpus imports, `write_needed=t
 
 ## Current full backfill
 
-The current full backfill exported 245 rows that already satisfy the deterministic public record contract.
+The current full backfill exported 246 rows that already satisfy the deterministic public record contract.
 
 `data/manifest.json` records the selection summary:
 

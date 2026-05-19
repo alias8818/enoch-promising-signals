@@ -6,7 +6,7 @@ These records are **not validated papers**, **not peer reviewed**, **not publica
 
 ## Current export
 
-The current export contains 245 deterministic, contract-clean signals from the Enoch control plane:
+The current export contains 246 deterministic, contract-clean signals from the Enoch control plane:
 
 - `useful_signal`: bounded local evidence worth preserving.
 - `promising_if_scaled`: a lead that may deserve larger-compute validation.
