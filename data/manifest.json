@@ -5,7 +5,7 @@
     "promising_if_scaled",
     "useful_signal"
   ],
-  "generated_at": "2026-05-19T19:19:19.536847+00:00",
+  "generated_at": "2026-05-19T20:07:03.871039+00:00",
   "index_file": "signals/index.md",
   "project_ids": [
     "1-bit-residual-channel-pretraining-for-gpt-2-small-class-e082079e4a3f",
@@ -74,6 +74,7 @@
     "checkpointed-gpt-2-intermediate-kl-heads-for-actual-specul-9042abd5e4",
     "cifar-10-calibrated-uncertainty-routed-cascades-with-laten-e93d3deda8",
     "claim-ledger-audit-with-strong-independent-nli-verificatio-1b04378348",
+    "class-balanced-near-duplicate-prioritized-replay-for-local-891b144158",
     "commit-reveal-gradient-validation-for-cheating-resistant-volunteer-training-10aad0bda5d9",
     "commit-reveal-gradient-validation-for-cheating-resistant-volunteer-training-bdedf04df87d",
     "commit-reveal-gradient-validation-for-volunteer-distributed-training-7284e53de3a5",
@@ -230,6 +231,7 @@
     "kv-cache-offload-router-for-multi-turn-local-serving-639041a0dcc9",
     "kv-cache-prompt-suffix-lookahead-on-natural-long-context-c-6364cf9a9c",
     "kv-cache-suffix-array-drafting-for-vram-free-speculative-decoding-503b4aedb46f",
+    "kv-cache-suffix-array-speculation-2fdda793fba3",
     "kv-cache-suffix-history-speculative-decoding-on-mixed-prom-9c482497e8",
     "kv-cache-suffix-tree-speculative-decoding-dd2b477dffaa",
     "langgraph-adapter-rollback-ledger-under-randomized-crash-a-b627e5b7ef",
@@ -246,6 +248,7 @@
     "live-agent-tool-path-signed-recorder-with-crash-and-concur-d3d8173e93",
     "live-append-restart-recovery-for-isolated-ledger-tailing-1e380a0ab2",
     "live-llm-agent-failure-recall-with-append-only-evidence-le-aed02f6519",
+    "live-memory-replay-admission-for-real-small-local-transfor-85eecba84d",
     "live-tool-trace-contradiction-recovery-without-last-mentio-f02b02654c",
     "live-tool-trace-evidence-ledger-hallucination-test-33c9e965a2",
     "llm-agent-natural-language-evidence-ledger-counterexample-32dadf6f5e",
@@ -312,6 +315,7 @@
     "natural-corpus-paraphrase-memory-grounding-with-equal-budg-d480d2d7bc",
     "natural-evidence-claim-ledger-audit-with-independent-verif-071314f2ad",
     "natural-language-agent-benchmark-for-evidence-ledger-rollb-a18e2d5755",
+    "natural-near-duplicate-replay-admission-across-multiple-lo-c9e3ba8343",
     "natural-tool-trace-ledger-react-with-independent-semantic-609daf2f66",
     "naturalistic-copy-suffix-localization-without-explicit-quo-bc04d2807a",
     "naturalistic-paraphrase-memory-grounding-with-end-to-end-a-45f563a044",
@@ -525,19 +529,35 @@
     "zero-floor-or-percentile-scaled-sqrt-int8-adam-v-state-par-af0d5936b2"
   ],
   "public_evidence_copied": false,
-  "record_count": 515,
+  "ranked_index_file": "signals/ranked-index.md",
+  "ranking_buckets": {
+    "compute_scale_blocked": "Compute-scale blocked",
+    "followup_recommended": "Follow-up recommended",
+    "likely_stale_low_value_archive": "Likely stale/low-value archive",
+    "top_external_researcher_candidates": "Top external-researcher candidates",
+    "weak_local_only_preserved": "Weak/local-only preserved signals"
+  },
+  "ranking_file": "data/ranking.json",
+  "ranking_summary": {
+    "compute_scale_blocked": 67,
+    "followup_recommended": 212,
+    "likely_stale_low_value_archive": 50,
+    "top_external_researcher_candidates": 129,
+    "weak_local_only_preserved": 61
+  },
+  "record_count": 519,
   "schema_file": "schemas/promising-signal.schema.json",
   "schema_version": "enoch_promising_signal_manifest_v1",
   "selection_summary": {
     "backfilled_exportable": 267,
     "excluded_paper_or_corpus": 269,
-    "export_cleanly_now": 515,
+    "export_cleanly_now": 519,
     "hard_negative_or_stale": 911,
     "missing_required_evidence_or_fields": 0,
-    "total_candidate_rows": 1695
+    "total_candidate_rows": 1699
   },
   "status_counts": {
     "compute_scale_blocked": 67,
-    "useful_signal": 448
+    "useful_signal": 452
   }
 }

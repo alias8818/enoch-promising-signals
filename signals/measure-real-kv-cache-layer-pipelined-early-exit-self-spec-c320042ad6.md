@@ -1,10 +1,26 @@
 # Measure real KV-cache layer-pipelined early-exit self-speculation
 
 Status: `useful_signal`
+Curation bucket: `likely_stale_low_value_archive`
+Curation score: `38`
 Project ID: `measure-real-kv-cache-layer-pipelined-early-exit-self-spec-c320042ad6`
 Run ID: `measure-real-kv-cache-layer-pipelined-early-exit-self-spec-c320042ad6-20260518T102707249791+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Likely stale/low-value archive
+- Score: `38`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 0, "hypothesis_status": -15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- unsupported hypothesis_status
+- source lineage present
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

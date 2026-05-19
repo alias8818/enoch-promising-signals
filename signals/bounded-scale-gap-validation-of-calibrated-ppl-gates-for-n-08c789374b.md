@@ -1,10 +1,28 @@
 # Bounded scale-gap validation of calibrated PPL gates for no-KV LM cascades
 
 Status: `compute_scale_blocked`
+Curation bucket: `compute_scale_blocked`
+Curation score: `78`
 Project ID: `bounded-scale-gap-validation-of-calibrated-ppl-gates-for-n-08c789374b`
 Run ID: `bounded-scale-gap-validation-of-calibrated-ppl-gates-for-n-08c789374b-20260515T073822983682+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Compute-scale blocked
+- Score: `78`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 10, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

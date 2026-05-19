@@ -1,10 +1,27 @@
 # Robust 3-bit activation-weight residual split validation
 
 Status: `useful_signal`
+Curation bucket: `top_external_researcher_candidates`
+Curation score: `98`
 Project ID: `robust-3-bit-activation-weight-residual-split-validation-cf24b41197`
 Run ID: `robust-3-bit-activation-weight-residual-split-validation-cf24b41197-20260516T180229449002+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Top external-researcher candidates
+- Score: `98`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 15, "hypothesis_status": 30, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- supported hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

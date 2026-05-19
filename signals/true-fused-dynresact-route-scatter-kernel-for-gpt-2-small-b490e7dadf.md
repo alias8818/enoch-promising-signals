@@ -1,10 +1,27 @@
 # True fused DynResAct route+scatter kernel for GPT-2-small prefill
 
 Status: `useful_signal`
+Curation bucket: `weak_local_only_preserved`
+Curation score: `63`
 Project ID: `true-fused-dynresact-route-scatter-kernel-for-gpt-2-small-b490e7dadf`
 Run ID: `true-fused-dynresact-route-scatter-kernel-for-gpt-2-small-b490e7dadf-20260517T155633316835+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Weak/local-only preserved signals
+- Score: `63`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": -5, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

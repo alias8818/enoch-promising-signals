@@ -1,10 +1,27 @@
 # Low-bit block residual gates for 2-bit KV cache
 
 Status: `useful_signal`
+Curation bucket: `followup_recommended`
+Curation score: `83`
 Project ID: `low-bit-block-residual-gates-for-2-bit-kv-cache-7b04369b80`
 Run ID: `low-bit-block-residual-gates-for-2-bit-kv-cache-7b04369b80-20260519T155907238606+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Follow-up recommended
+- Score: `83`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 15, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

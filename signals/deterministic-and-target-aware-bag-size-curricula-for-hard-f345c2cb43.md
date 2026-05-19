@@ -1,10 +1,27 @@
 # Deterministic and Target-Aware Bag-Size Curricula for Hard Superposition
 
 Status: `compute_scale_blocked`
+Curation bucket: `compute_scale_blocked`
+Curation score: `72`
 Project ID: `deterministic-and-target-aware-bag-size-curricula-for-hard-f345c2cb43`
 Run ID: `deterministic-and-target-aware-bag-size-curricula-for-hard-f345c2cb43-20260514T125006737432+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Compute-scale blocked
+- Score: `72`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 0, "hypothesis_status": 15, "source_lineage": 12}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- external source URL present
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

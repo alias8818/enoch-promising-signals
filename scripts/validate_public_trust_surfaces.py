@@ -75,7 +75,20 @@ def main() -> int:
             failures.append(f"missing required public framing: {phrase}")
 
     records = load_records()
+    manifest = json.loads((ROOT / "data" / "manifest.json").read_text(encoding="utf-8"))
     index_text = (ROOT / "signals" / "index.md").read_text(encoding="utf-8", errors="replace")
+    ranked_index_path = ROOT / "signals" / "ranked-index.md"
+    if not ranked_index_path.exists():
+        failures.append("missing signals/ranked-index.md")
+        ranked_index_text = ""
+    else:
+        ranked_index_text = ranked_index_path.read_text(encoding="utf-8", errors="replace")
+    readme_text = (ROOT / "README.md").read_text(encoding="utf-8", errors="replace")
+    if f"contains {manifest.get('record_count')} deterministic" not in readme_text:
+        failures.append("README.md current export count does not match manifest")
+    for required_link in ("signals/ranked-index.md", "data/ranking.json", "data/manifest.json"):
+        if required_link not in readme_text:
+            failures.append(f"README.md missing generated surface link: {required_link}")
     for record in records:
         project_id = str(record.get("project_id") or "")
         title = str(record.get("title") or "")
@@ -83,6 +96,18 @@ def main() -> int:
             failures.append(f"signals/index.md missing project_id {project_id}")
         if title and title not in index_text:
             failures.append(f"signals/index.md missing title {title}")
+        if project_id and project_id not in ranked_index_text:
+            failures.append(f"signals/ranked-index.md missing project_id {project_id}")
+        curation = record.get("curation") if isinstance(record.get("curation"), dict) else {}
+        bucket = str(curation.get("bucket") or "")
+        if bucket:
+            bucket_path = ROOT / "signals" / "buckets" / f"{bucket.replace('_', '-')}.md"
+            if not bucket_path.exists():
+                failures.append(f"missing bucket index {bucket_path.relative_to(ROOT)}")
+            else:
+                bucket_text = bucket_path.read_text(encoding="utf-8", errors="replace")
+                if project_id and project_id not in bucket_text:
+                    failures.append(f"{bucket_path.relative_to(ROOT)} missing project_id {project_id}")
         evidence = record.get("evidence") if isinstance(record.get("evidence"), dict) else {}
         if evidence.get("public_evidence_copied") is not False:
             failures.append(f"{project_id}: public_evidence_copied must remain false")

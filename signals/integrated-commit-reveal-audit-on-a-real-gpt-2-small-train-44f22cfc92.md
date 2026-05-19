@@ -1,10 +1,27 @@
 # Integrated commit-reveal audit on a real GPT-2-small training optimizer trace
 
 Status: `compute_scale_blocked`
+Curation bucket: `compute_scale_blocked`
+Curation score: `73`
 Project ID: `integrated-commit-reveal-audit-on-a-real-gpt-2-small-train-44f22cfc92`
 Run ID: `integrated-commit-reveal-audit-on-a-real-gpt-2-small-train-44f22cfc92-20260515T011706876222+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Compute-scale blocked
+- Score: `73`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": -10, "hypothesis_status": 30, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- supported hypothesis_status
+- source lineage present
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

@@ -1,10 +1,27 @@
 # Mass-aware exact-anchor clustered KV cache decoding on GPT-2-small
 
 Status: `useful_signal`
+Curation bucket: `followup_recommended`
+Curation score: `83`
 Project ID: `mass-aware-exact-anchor-clustered-kv-cache-decoding-on-gpt-22c14bdcc3`
 Run ID: `mass-aware-exact-anchor-clustered-kv-cache-decoding-on-gpt-22c14bdcc3-20260519T073503497929+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Follow-up recommended
+- Score: `83`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 15, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

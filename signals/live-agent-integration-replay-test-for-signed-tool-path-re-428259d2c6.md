@@ -1,10 +1,27 @@
 # Live Agent Integration Replay Test For Signed Tool-Path Recorder
 
 Status: `useful_signal`
+Curation bucket: `weak_local_only_preserved`
+Curation score: `73`
 Project ID: `live-agent-integration-replay-test-for-signed-tool-path-re-428259d2c6`
 Run ID: `live-agent-integration-replay-test-for-signed-tool-path-re-428259d2c6-20260518T123004631736+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Weak/local-only preserved signals
+- Score: `73`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": -10, "hypothesis_status": 30, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- supported hypothesis_status
+- source lineage present
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

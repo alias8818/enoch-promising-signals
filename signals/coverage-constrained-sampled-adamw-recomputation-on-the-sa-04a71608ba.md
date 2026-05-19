@@ -1,10 +1,27 @@
 # Coverage-constrained sampled AdamW recomputation on the same small transformer
 
 Status: `useful_signal`
+Curation bucket: `likely_stale_low_value_archive`
+Curation score: `43`
 Project ID: `coverage-constrained-sampled-adamw-recomputation-on-the-sa-04a71608ba`
 Run ID: `coverage-constrained-sampled-adamw-recomputation-on-the-sa-04a71608ba-20260517T164403339632+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Likely stale/low-value archive
+- Score: `43`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 35, "followup": -5, "hypothesis_status": -15, "source_lineage": 8}`
+
+Reasons:
+- strong evidence_strength
+- unsupported hypothesis_status
+- source lineage present
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

@@ -1,10 +1,27 @@
 # Production-cache prompt-local copy speculative decoding on broader extractive QA
 
 Status: `useful_signal`
+Curation bucket: `likely_stale_low_value_archive`
+Curation score: `33`
 Project ID: `production-cache-prompt-local-copy-speculative-decoding-on-5f15be9656`
 Run ID: `production-cache-prompt-local-copy-speculative-decoding-on-5f15be9656-20260518T185805143683+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Likely stale/low-value archive
+- Score: `33`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": -5, "hypothesis_status": -15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- unsupported hypothesis_status
+- source lineage present
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

@@ -1,10 +1,27 @@
 # Calibration-trained ternary residual channels for GPT-2-small sub-2-bit perplexity
 
 Status: `useful_signal`
+Curation bucket: `followup_recommended`
+Curation score: `83`
 Project ID: `calibration-trained-ternary-residual-channels-for-gpt-2-sm-59c820e71a`
 Run ID: `calibration-trained-ternary-residual-channels-for-gpt-2-sm-59c820e71a-20260519T043805376630+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Follow-up recommended
+- Score: `83`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 15, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

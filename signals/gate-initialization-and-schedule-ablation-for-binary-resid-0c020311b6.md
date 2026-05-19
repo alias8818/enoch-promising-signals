@@ -1,10 +1,27 @@
 # Gate initialization and schedule ablation for binary residual bottleneck adapters
 
 Status: `useful_signal`
+Curation bucket: `weak_local_only_preserved`
+Curation score: `63`
 Project ID: `gate-initialization-and-schedule-ablation-for-binary-resid-0c020311b6`
 Run ID: `gate-initialization-and-schedule-ablation-for-binary-resid-0c020311b6-20260518T111304663378+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Weak/local-only preserved signals
+- Score: `63`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": -5, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

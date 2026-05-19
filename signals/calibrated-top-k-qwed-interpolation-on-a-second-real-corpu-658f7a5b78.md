@@ -1,10 +1,28 @@
 # Calibrated top-k QWED interpolation on a second real corpus
 
 Status: `useful_signal`
+Curation bucket: `top_external_researcher_candidates`
+Curation score: `100`
 Project ID: `calibrated-top-k-qwed-interpolation-on-a-second-real-corpu-658f7a5b78`
 Run ID: `calibrated-top-k-qwed-interpolation-on-a-second-real-corpu-658f7a5b78-20260518T203133566410+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Top external-researcher candidates
+- Score: `100`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 35, "followup": 10, "hypothesis_status": 30, "source_lineage": 8}`
+
+Reasons:
+- strong evidence_strength
+- supported hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

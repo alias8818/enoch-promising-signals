@@ -1,10 +1,27 @@
 # Direct agent-harness evaluation of append-only evidence ledger failure recall
 
 Status: `compute_scale_blocked`
+Curation bucket: `compute_scale_blocked`
+Curation score: `98`
 Project ID: `direct-agent-harness-evaluation-of-append-only-evidence-le-704935537c`
 Run ID: `direct-agent-harness-evaluation-of-append-only-evidence-le-704935537c-20260514T073006732390+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Compute-scale blocked
+- Score: `98`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 15, "hypothesis_status": 30, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- supported hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

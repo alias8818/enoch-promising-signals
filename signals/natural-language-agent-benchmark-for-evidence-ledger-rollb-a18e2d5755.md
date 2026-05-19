@@ -1,10 +1,27 @@
 # Natural-language agent benchmark for evidence-ledger rollbacks
 
 Status: `useful_signal`
+Curation bucket: `top_external_researcher_candidates`
+Curation score: `98`
 Project ID: `natural-language-agent-benchmark-for-evidence-ledger-rollb-a18e2d5755`
 Run ID: `natural-language-agent-benchmark-for-evidence-ledger-rollb-a18e2d5755-20260514T072447710320+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Top external-researcher candidates
+- Score: `98`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 15, "hypothesis_status": 30, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- supported hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

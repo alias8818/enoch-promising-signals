@@ -1,10 +1,27 @@
 # Hidden-state router for 0.5B-to-3B local cascade
 
 Status: `compute_scale_blocked`
+Curation bucket: `compute_scale_blocked`
+Curation score: `83`
 Project ID: `hidden-state-router-for-0-5b-to-3b-local-cascade-8405793743cf`
 Run ID: `hidden-state-router-for-0-5b-to-3b-local-cascade-8405793743cf-20260514T232338382090+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Compute-scale blocked
+- Score: `83`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 15, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

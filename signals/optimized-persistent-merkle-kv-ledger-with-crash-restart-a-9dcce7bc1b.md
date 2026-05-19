@@ -1,10 +1,28 @@
 # Optimized Persistent Merkle KV Ledger With Crash-Restart Adversarial Persistence
 
 Status: `useful_signal`
+Curation bucket: `top_external_researcher_candidates`
+Curation score: `93`
 Project ID: `optimized-persistent-merkle-kv-ledger-with-crash-restart-a-9dcce7bc1b`
 Run ID: `optimized-persistent-merkle-kv-ledger-with-crash-restart-a-9dcce7bc1b-20260518T010004168884+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Top external-researcher candidates
+- Score: `93`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 10, "hypothesis_status": 30, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- supported hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

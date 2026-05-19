@@ -1,10 +1,28 @@
 # Activation-selected residual channels with error-aware 2-bit quantization
 
 Status: `useful_signal`
+Curation bucket: `followup_recommended`
+Curation score: `78`
 Project ID: `activation-selected-residual-channels-with-error-aware-2-b-ad5a87cb53`
 Run ID: `activation-selected-residual-channels-with-error-aware-2-b-ad5a87cb53-20260516T085033004894+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Follow-up recommended
+- Score: `78`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 10, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

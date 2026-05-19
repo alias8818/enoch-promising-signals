@@ -1,10 +1,27 @@
 # Recorded Agent Tool-Trace Contradiction Recovery Benchmark
 
 Status: `compute_scale_blocked`
+Curation bucket: `compute_scale_blocked`
+Curation score: `58`
 Project ID: `recorded-agent-tool-trace-contradiction-recovery-benchmark-ceac3cc2cf`
 Run ID: `recorded-agent-tool-trace-contradiction-recovery-benchmark-ceac3cc2cf-20260514T010336651431+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Compute-scale blocked
+- Score: `58`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": -10, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

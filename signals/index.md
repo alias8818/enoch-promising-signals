@@ -2,6 +2,8 @@
 
 These records are bounded local signals, not papers and not publication-positive claims.
 
+For triage, start with the [ranked index](ranked-index.md).
+
 | Title | Status | Evidence strength | Follow-up |
 |---|---|---|---|
 | [1-Bit Residual Channel Pretraining for GPT-2-Small Class](1-bit-residual-channel-pretraining-for-gpt-2-small-class-e082079e4a3f.md) | `useful_signal` | moderate | Residual-preserving 1-bit bottleneck with dense bypass gate |
@@ -70,6 +72,7 @@ These records are bounded local signals, not papers and not publication-positive
 | [Checkpointed GPT-2 intermediate KL heads for actual speculative decoding throughput](checkpointed-gpt-2-intermediate-kl-heads-for-actual-specul-9042abd5e4.md) | `useful_signal` | moderate | Optimized exact cache path for GPT-2 intermediate-head self-speculation |
 | [CIFAR-10 calibrated uncertainty-routed cascades with latency controls](cifar-10-calibrated-uncertainty-routed-cascades-with-laten-e93d3deda8.md) | `useful_signal` | moderate | CIFAR-10/100 calibrated cascades versus early-exit baselines under matched latency |
 | [Claim-Ledger Audit with Strong Independent NLI Verification](claim-ledger-audit-with-strong-independent-nli-verificatio-1b04378348.md) | `useful_signal` | moderate |  |
+| [Class-balanced near-duplicate-prioritized replay for local transformer routers](class-balanced-near-duplicate-prioritized-replay-for-local-891b144158.md) | `useful_signal` | moderate |  |
 | [Commit-Reveal Gradient Validation for Cheating-Resistant Volunteer Training](commit-reveal-gradient-validation-for-cheating-resistant-volunteer-training-10aad0bda5d9.md) | `useful_signal` | moderate | Repeated Hidden Validation for Multi-Step Volunteer Gradient Training |
 | [Commit-Reveal Gradient Validation for Cheating-Resistant Volunteer Training](commit-reveal-gradient-validation-for-cheating-resistant-volunteer-training-bdedf04df87d.md) | `compute_scale_blocked` | moderate | Bounded Neural Volunteer Training Commit-Reveal Validation |
 | [Commit-Reveal Gradient Validation for Volunteer Distributed Training](commit-reveal-gradient-validation-for-volunteer-distributed-training-7284e53de3a5.md) | `useful_signal` | moderate | Commit-Reveal Gradient Validation Under Non-IID Neural Volunteer Training |
@@ -226,6 +229,7 @@ These records are bounded local signals, not papers and not publication-positive
 | [KV-Cache Offload Router for Multi-Turn Local Serving](kv-cache-offload-router-for-multi-turn-local-serving-639041a0dcc9.md) | `useful_signal` | moderate | Learned Reuse Prediction for KV-Cache Offload Admission |
 | [KV-cache prompt suffix lookahead on natural long-context copy workloads](kv-cache-prompt-suffix-lookahead-on-natural-long-context-c-6364cf9a9c.md) | `useful_signal` | moderate | Held-out natural copy suffix localization benchmark |
 | [KV-Cache Suffix Array Drafting for VRAM-Free Speculative Decoding](kv-cache-suffix-array-drafting-for-vram-free-speculative-decoding-503b4aedb46f.md) | `compute_scale_blocked` | moderate | Real LLM Trace Validation for Exact KV-Cache Suffix Drafting |
+| [KV-Cache Suffix-Array Speculation](kv-cache-suffix-array-speculation-2fdda793fba3.md) | `useful_signal` | moderate | Tokenizer-level suffix-cache speculation in a small transformer loop |
 | [KV-cache suffix-history speculative decoding on mixed prompt strata](kv-cache-suffix-history-speculative-decoding-on-mixed-prom-9c482497e8.md) | `useful_signal` | moderate | Suffix-history speculative decoding in a real KV-cache serving path |
 | [KV-Cache Suffix-Tree Speculative Decoding](kv-cache-suffix-tree-speculative-decoding-dd2b477dffaa.md) | `useful_signal` | moderate | Small-Model KV-Cache Suffix Drafting Latency Test |
 | [LangGraph adapter rollback ledger under randomized crash and concurrent retry faults](langgraph-adapter-rollback-ledger-under-randomized-crash-a-b627e5b7ef.md) | `useful_signal` | moderate | Process-kill rollback ledger validation with external service emulator |
@@ -242,6 +246,7 @@ These records are bounded local signals, not papers and not publication-positive
 | [Live Agent Tool-Path Signed Recorder With Crash and Concurrency Checks](live-agent-tool-path-signed-recorder-with-crash-and-concur-d3d8173e93.md) | `useful_signal` | moderate | Live Agent Integration Replay Test For Signed Tool-Path Recorder |
 | [Live append restart recovery for isolated ledger tailing](live-append-restart-recovery-for-isolated-ledger-tailing-1e380a0ab2.md) | `useful_signal` | moderate |  |
 | [Live LLM-agent failure recall with append-only evidence ledger](live-llm-agent-failure-recall-with-append-only-evidence-le-aed02f6519.md) | `useful_signal` | moderate | Real-trace validation of append-only failure evidence ledger |
+| [Live-memory replay admission for real small local transformer cascades](live-memory-replay-admission-for-real-small-local-transfor-85eecba84d.md) | `useful_signal` | moderate | Natural near-duplicate replay admission across multiple local transformer routing tasks |
 | [Live Tool-Trace Contradiction Recovery Without Last-Mention Shortcut](live-tool-trace-contradiction-recovery-without-last-mentio-f02b02654c.md) | `compute_scale_blocked` | moderate | Recorded Agent Tool-Trace Contradiction Recovery Benchmark |
 | [Live Tool-Trace Evidence Ledger Hallucination Test](live-tool-trace-evidence-ledger-hallucination-test-33c9e965a2.md) | `useful_signal` | moderate | Multi-Model Semi-Real Evidence Ledger Hallucination Eval |
 | [LLM-Agent Natural-Language Evidence Ledger Counterexample Benchmark](llm-agent-natural-language-evidence-ledger-counterexample-32dadf6f5e.md) | `useful_signal` | moderate | Batched Larger-Model Evidence Ledger Counterexample Sweep |
@@ -308,6 +313,7 @@ These records are bounded local signals, not papers and not publication-positive
 | [Natural Corpus Paraphrase Memory Grounding With Equal-Budget Controls](natural-corpus-paraphrase-memory-grounding-with-equal-budg-d480d2d7bc.md) | `useful_signal` | moderate |  |
 | [Natural Evidence Claim-Ledger Audit with Independent Verification](natural-evidence-claim-ledger-audit-with-independent-verif-071314f2ad.md) | `useful_signal` | moderate | Claim-Ledger Audit with Strong Independent NLI Verification |
 | [Natural-language agent benchmark for evidence-ledger rollbacks](natural-language-agent-benchmark-for-evidence-ledger-rollb-a18e2d5755.md) | `useful_signal` | moderate | Real-agent evaluation of evidence-ledger rollback benchmark |
+| [Natural near-duplicate replay admission across multiple local transformer routing tasks](natural-near-duplicate-replay-admission-across-multiple-lo-c9e3ba8343.md) | `useful_signal` | moderate | Class-balanced near-duplicate-prioritized replay for local transformer routers |
 | [Natural Tool-Trace Ledger ReAct With Independent Semantic Verification](natural-tool-trace-ledger-react-with-independent-semantic-609daf2f66.md) | `useful_signal` | moderate | Real LLM Tool-Trace Ledger Verification Under Constrained vs Free-Form Ledgers |
 | [Naturalistic copy suffix localization without explicit quote instructions](naturalistic-copy-suffix-localization-without-explicit-quo-bc04d2807a.md) | `useful_signal` | moderate |  |
 | [Naturalistic Paraphrase Memory Grounding With End-to-End Answer Metrics](naturalistic-paraphrase-memory-grounding-with-end-to-end-a-45f563a044.md) | `useful_signal` | moderate | Natural Corpus Paraphrase Memory Grounding With Equal-Budget Controls |

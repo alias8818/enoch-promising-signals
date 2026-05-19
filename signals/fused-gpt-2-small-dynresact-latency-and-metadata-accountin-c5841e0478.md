@@ -1,10 +1,27 @@
 # Fused GPT-2-small DynResAct latency and metadata accounting
 
 Status: `useful_signal`
+Curation bucket: `followup_recommended`
+Curation score: `83`
 Project ID: `fused-gpt-2-small-dynresact-latency-and-metadata-accountin-c5841e0478`
 Run ID: `fused-gpt-2-small-dynresact-latency-and-metadata-accountin-c5841e0478-20260517T155104810310+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Follow-up recommended
+- Score: `83`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 15, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

@@ -1,10 +1,28 @@
 # Token Superposition for Long-Context Anchor Compression
 
 Status: `useful_signal`
+Curation bucket: `top_external_researcher_candidates`
+Curation score: `87`
 Project ID: `token-superposition-for-long-context-anchor-compression-2e427b5fb840`
 Run ID: `token-superposition-for-long-context-anchor-compression-2e427b5fb840-20260514T103817560204+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Top external-researcher candidates
+- Score: `87`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 15, "hypothesis_status": 15, "source_lineage": 12}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- external source URL present
+- bounded follow-up is specified
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

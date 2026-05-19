@@ -1,10 +1,27 @@
 # Concurrent atomic rollback ledger recovery under external latency and error injection
 
 Status: `useful_signal`
+Curation bucket: `weak_local_only_preserved`
+Curation score: `73`
 Project ID: `concurrent-atomic-rollback-ledger-recovery-under-external-f4ccb768a5`
 Run ID: `concurrent-atomic-rollback-ledger-recovery-under-external-f4ccb768a5-20260515T200043461442+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Weak/local-only preserved signals
+- Score: `73`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": -10, "hypothesis_status": 30, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- supported hypothesis_status
+- source lineage present
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

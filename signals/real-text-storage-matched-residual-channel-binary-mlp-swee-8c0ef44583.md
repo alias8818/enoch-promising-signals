@@ -1,10 +1,26 @@
 # Real-text storage-matched residual-channel binary MLP sweep
 
 Status: `useful_signal`
+Curation bucket: `weak_local_only_preserved`
+Curation score: `68`
 Project ID: `real-text-storage-matched-residual-channel-binary-mlp-swee-8c0ef44583`
 Run ID: `real-text-storage-matched-residual-channel-binary-mlp-swee-8c0ef44583-20260516T153502472821+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Weak/local-only preserved signals
+- Score: `68`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 0, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

@@ -1,10 +1,27 @@
 # Neural semantic detector ablation for signed-shard paraphrase poison scanning
 
 Status: `useful_signal`
+Curation bucket: `likely_stale_low_value_archive`
+Curation score: `43`
 Project ID: `neural-semantic-detector-ablation-for-signed-shard-paraphr-33d651ac24`
 Run ID: `neural-semantic-detector-ablation-for-signed-shard-paraphr-33d651ac24-20260519T064104947579+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Likely stale/low-value archive
+- Score: `43`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 35, "followup": -5, "hypothesis_status": -15, "source_lineage": 8}`
+
+Reasons:
+- strong evidence_strength
+- unsupported hypothesis_status
+- source lineage present
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

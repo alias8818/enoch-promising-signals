@@ -1,10 +1,27 @@
 # Medium-scale commit-reveal replay auditing on a larger optimizer trace
 
 Status: `compute_scale_blocked`
+Curation bucket: `compute_scale_blocked`
+Curation score: `100`
 Project ID: `medium-scale-commit-reveal-replay-auditing-on-a-larger-opt-dd9c25b0da`
 Run ID: `medium-scale-commit-reveal-replay-auditing-on-a-larger-opt-dd9c25b0da-20260515T003526773194+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Compute-scale blocked
+- Score: `100`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 35, "followup": 15, "hypothesis_status": 30, "source_lineage": 8}`
+
+Reasons:
+- strong evidence_strength
+- supported hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

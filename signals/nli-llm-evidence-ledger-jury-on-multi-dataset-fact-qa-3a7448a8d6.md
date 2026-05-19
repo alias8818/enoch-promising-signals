@@ -1,10 +1,27 @@
 # NLI/LLM Evidence-Ledger Jury on Multi-Dataset Fact QA
 
 Status: `useful_signal`
+Curation bucket: `weak_local_only_preserved`
+Curation score: `58`
 Project ID: `nli-llm-evidence-ledger-jury-on-multi-dataset-fact-qa-3a7448a8d6`
 Run ID: `nli-llm-evidence-ledger-jury-on-multi-dataset-fact-qa-3a7448a8d6-20260514T194356730801+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Weak/local-only preserved signals
+- Score: `58`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": -10, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

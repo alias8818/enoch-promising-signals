@@ -1,10 +1,27 @@
 # Calibration-trained ternary low-rank residual repair for GPT-2-small BPE validation
 
 Status: `useful_signal`
+Curation bucket: `weak_local_only_preserved`
+Curation score: `58`
 Project ID: `calibration-trained-ternary-low-rank-residual-repair-for-g-0e07829031`
 Run ID: `calibration-trained-ternary-low-rank-residual-repair-for-g-0e07829031-20260519T153816457555+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Weak/local-only preserved signals
+- Score: `58`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": -10, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

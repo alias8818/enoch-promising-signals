@@ -1,10 +1,28 @@
 # Real Tool-Agent Harness Evaluation for Ledger-Constrained Decoding
 
 Status: `useful_signal`
+Curation bucket: `followup_recommended`
+Curation score: `78`
 Project ID: `real-tool-agent-harness-evaluation-for-ledger-constrained-ea106e457e`
 Run ID: `real-tool-agent-harness-evaluation-for-ledger-constrained-ea106e457e-20260514T203901774283+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Follow-up recommended
+- Score: `78`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 10, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

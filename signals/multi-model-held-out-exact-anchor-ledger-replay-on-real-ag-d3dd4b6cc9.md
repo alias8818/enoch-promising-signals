@@ -1,10 +1,27 @@
 # Multi-model held-out exact-anchor ledger replay on real agent traces
 
 Status: `useful_signal`
+Curation bucket: `followup_recommended`
+Curation score: `83`
 Project ID: `multi-model-held-out-exact-anchor-ledger-replay-on-real-ag-d3dd4b6cc9`
 Run ID: `multi-model-held-out-exact-anchor-ledger-replay-on-real-ag-d3dd4b6cc9-20260516T002359480306+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Follow-up recommended
+- Score: `83`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 15, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

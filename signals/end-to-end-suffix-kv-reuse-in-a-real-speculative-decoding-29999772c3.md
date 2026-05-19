@@ -1,10 +1,26 @@
 # End-to-End Suffix KV Reuse In A Real Speculative Decoding Loop
 
 Status: `useful_signal`
+Curation bucket: `likely_stale_low_value_archive`
+Curation score: `38`
 Project ID: `end-to-end-suffix-kv-reuse-in-a-real-speculative-decoding-29999772c3`
 Run ID: `end-to-end-suffix-kv-reuse-in-a-real-speculative-decoding-29999772c3-20260515T210723327192+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Likely stale/low-value archive
+- Score: `38`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 0, "hypothesis_status": -15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- unsupported hypothesis_status
+- source lineage present
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

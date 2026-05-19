@@ -6,13 +6,20 @@ These records are **not validated papers**, **not peer reviewed**, **not publica
 
 ## Current export
 
-The current export contains 246 deterministic, contract-clean signals from the Enoch control plane:
+The current export contains 519 deterministic, contract-clean signals from the Enoch control plane.
 
-- `useful_signal`: bounded local evidence worth preserving.
-- `promising_if_scaled`: a lead that may deserve larger-compute validation.
-- `compute_scale_blocked`: a lead where the next meaningful test exceeds current local compute/time limits.
+Status counts:
+- `compute_scale_blocked`: 67
+- `useful_signal`: 452
 
-The generated index is in [`signals/index.md`](signals/index.md). Machine-readable source of truth is [`data/signals.jsonl`](data/signals.jsonl), with count/status accounting in [`data/manifest.json`](data/manifest.json), validated against [`schemas/promising-signal.schema.json`](schemas/promising-signal.schema.json).
+Deterministic curation buckets:
+- [Top external-researcher candidates](signals/buckets/top-external-researcher-candidates.md): 129
+- [Compute-scale blocked](signals/buckets/compute-scale-blocked.md): 67
+- [Follow-up recommended](signals/buckets/followup-recommended.md): 212
+- [Weak/local-only preserved signals](signals/buckets/weak-local-only-preserved.md): 61
+- [Likely stale/low-value archive](signals/buckets/likely-stale-low-value-archive.md): 50
+
+Start with the generated [ranked index](signals/ranked-index.md). The generated title index is in [signals/index.md](signals/index.md). Machine-readable source of truth is [data/signals.jsonl](data/signals.jsonl), ranking metadata is in [data/ranking.json](data/ranking.json), and count/status accounting is in [data/manifest.json](data/manifest.json).
 
 ## What belongs here
 
@@ -23,6 +30,10 @@ A record belongs here only when deterministic control-plane fields mark it as on
 - `compute_scale_blocked`
 
 A record does **not** belong here when it is paper-positive, already imported into the public corpus, missing required claim/evidence boundaries, or only supported by an LLM interpretation without a deterministic control-plane field.
+
+## Ranking rule
+
+Ranking is deterministic. Bucket labels and scores are derived only from exported fields: evidence strength, hypothesis status, source lineage, compute-scale status, follow-up metadata/depth, and local evidence artifact references. No LLM review or manual judgment is allowed to become ranking truth unless a validator can recompute it.
 
 ## Public-release rule
 
@@ -36,8 +47,9 @@ The exporter lives in the system repo:
 python3 scripts/export_promising_signals.py --output-repo ../enoch-promising-signals --clean-only
 ```
 
-The exporter fails closed for selected rows with missing required fields. For full backfills, `--clean-only` exports only rows that satisfy the deterministic public record contract and records skipped bucket counts in `data/manifest.json`. Validate the generated repository with:
+Validate the generated repository with:
 
 ```bash
 python3 scripts/validate.py
+python3 scripts/validate_public_trust_surfaces.py
 ```

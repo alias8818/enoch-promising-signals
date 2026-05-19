@@ -1,10 +1,27 @@
 # Full-Writer FEMNIST Sparsity and Rewinding Gradient Audit
 
 Status: `useful_signal`
+Curation bucket: `weak_local_only_preserved`
+Curation score: `68`
 Project ID: `full-writer-femnist-sparsity-and-rewinding-gradient-audit-ec8edb7f50`
 Run ID: `full-writer-femnist-sparsity-and-rewinding-gradient-audit-ec8edb7f50-20260517T061553606600+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Weak/local-only preserved signals
+- Score: `68`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 35, "followup": -10, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- strong evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

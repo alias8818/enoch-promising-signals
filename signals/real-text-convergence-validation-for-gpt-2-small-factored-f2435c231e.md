@@ -1,10 +1,27 @@
 # Real-text convergence validation for GPT-2-small factored Adam floor 128
 
 Status: `useful_signal`
+Curation bucket: `weak_local_only_preserved`
+Curation score: `58`
 Project ID: `real-text-convergence-validation-for-gpt-2-small-factored-f2435c231e`
 Run ID: `real-text-convergence-validation-for-gpt-2-small-factored-f2435c231e-20260516T074612576038+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Weak/local-only preserved signals
+- Score: `58`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": -10, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

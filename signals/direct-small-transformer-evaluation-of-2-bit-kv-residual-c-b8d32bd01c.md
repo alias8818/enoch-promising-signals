@@ -1,10 +1,27 @@
 # Direct small-transformer evaluation of 2-bit KV residual correction
 
 Status: `compute_scale_blocked`
+Curation bucket: `compute_scale_blocked`
+Curation score: `98`
 Project ID: `direct-small-transformer-evaluation-of-2-bit-kv-residual-c-b8d32bd01c`
 Run ID: `direct-small-transformer-evaluation-of-2-bit-kv-residual-c-b8d32bd01c-20260514T115925646336+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Compute-scale blocked
+- Score: `98`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 15, "hypothesis_status": 30, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- supported hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

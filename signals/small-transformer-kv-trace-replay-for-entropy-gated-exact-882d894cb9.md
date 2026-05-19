@@ -1,10 +1,26 @@
 # Small-transformer KV trace replay for entropy-gated exact retention
 
 Status: `useful_signal`
+Curation bucket: `weak_local_only_preserved`
+Curation score: `83`
 Project ID: `small-transformer-kv-trace-replay-for-entropy-gated-exact-882d894cb9`
 Run ID: `small-transformer-kv-trace-replay-for-entropy-gated-exact-882d894cb9-20260518T181204339418+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Weak/local-only preserved signals
+- Score: `83`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 0, "hypothesis_status": 30, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- supported hypothesis_status
+- source lineage present
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

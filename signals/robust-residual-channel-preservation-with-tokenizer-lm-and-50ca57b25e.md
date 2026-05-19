@@ -1,10 +1,27 @@
 # Robust residual-channel preservation with tokenizer LM and recovery fine-tuning
 
 Status: `useful_signal`
+Curation bucket: `top_external_researcher_candidates`
+Curation score: `98`
 Project ID: `robust-residual-channel-preservation-with-tokenizer-lm-and-50ca57b25e`
 Run ID: `robust-residual-channel-preservation-with-tokenizer-lm-and-50ca57b25e-20260516T202932536601+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Top external-researcher candidates
+- Score: `98`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 15, "hypothesis_status": 30, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- supported hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

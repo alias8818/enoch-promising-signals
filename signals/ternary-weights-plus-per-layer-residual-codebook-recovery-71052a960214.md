@@ -1,10 +1,27 @@
 # Ternary Weights Plus Per-Layer Residual Codebook Recovery
 
 Status: `compute_scale_blocked`
+Curation bucket: `compute_scale_blocked`
+Curation score: `83`
 Project ID: `ternary-weights-plus-per-layer-residual-codebook-recovery-71052a960214`
 Run ID: `ternary-weights-plus-per-layer-residual-codebook-recovery-71052a960214-20260513T205938482301+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Compute-scale blocked
+- Score: `83`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 15, "hypothesis_status": 15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- mixed hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 

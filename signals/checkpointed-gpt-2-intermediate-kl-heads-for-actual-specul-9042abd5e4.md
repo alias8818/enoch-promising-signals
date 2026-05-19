@@ -1,10 +1,28 @@
 # Checkpointed GPT-2 intermediate KL heads for actual speculative decoding throughput
 
 Status: `useful_signal`
+Curation bucket: `likely_stale_low_value_archive`
+Curation score: `48`
 Project ID: `checkpointed-gpt-2-intermediate-kl-heads-for-actual-specul-9042abd5e4`
 Run ID: `checkpointed-gpt-2-intermediate-kl-heads-for-actual-specul-9042abd5e4-20260516T172832772240+0000`
 
 > This is a promising-signal record, not a paper. It is bounded local evidence preserved for possible larger-compute follow-up.
+
+## Deterministic curation
+
+- Bucket: Likely stale/low-value archive
+- Score: `48`
+- Score breakdown: `{"bounded_evidence": 20, "evidence_strength": 25, "followup": 10, "hypothesis_status": -15, "source_lineage": 8}`
+
+Reasons:
+- moderate evidence_strength
+- unsupported hypothesis_status
+- source lineage present
+- bounded follow-up is specified
+- follow-up depth is already high
+- local evidence artifact paths are present
+- metrics artifact is present
+- project decision artifact is present
 
 ## Source
 
