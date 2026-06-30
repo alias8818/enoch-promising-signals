@@ -38,7 +38,7 @@ Single CPU host, one 0.5B-class Q8_0 GGUF model, one prompt shape, no batching, 
 
 ## Claim scope
 
-On cpu-proxmox-1 with 8 online logical CPUs, llama-cpp-python CPU-only inference for Qwen2.5 0.5B Instruct GGUF Q8_0 achieved about 18-20 generated tokens/sec at the best tested 4-thread setting for 128-256 token generations.
+On cpu-worker with 8 online logical CPUs, llama-cpp-python CPU-only inference for Qwen2.5 0.5B Instruct GGUF Q8_0 achieved about 18-20 generated tokens/sec at the best tested 4-thread setting for 128-256 token generations.
 
 ## Why it stopped
 

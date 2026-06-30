@@ -37,7 +37,7 @@ The probe measured LAN reachability and remote command-execution availability on
 
 ## Claim scope
 
-On the current default home LAN from host 192.168.1.77, a physical five-device consensus-ledger validation cannot be launched autonomously because only the local host is execution-capable; zero remote LAN peers accepted non-interactive SSH command execution.
+On the current default home LAN from host <lan-ip>, a physical five-device consensus-ledger validation cannot be launched autonomously because only the local host is execution-capable; zero remote LAN peers accepted non-interactive SSH command execution.
 
 ## Why it stopped
 

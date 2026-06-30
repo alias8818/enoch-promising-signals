@@ -4096,7 +4096,7 @@
     {
       "bucket": "top_external_researcher_candidates",
       "bucket_label": "Top external-researcher candidates",
-      "project_id": "bounded-queue-depth-controller-for-cpu-worker-proxmox-1-db71c5f4de42",
+      "project_id": "bounded-queue-depth-controller-for-cpu-worker-db71c5f4de42",
       "reasons": [
         "moderate evidence_strength",
         "supported hypothesis_status",
@@ -4106,10 +4106,10 @@
         "metrics artifact is present",
         "project decision artifact is present"
       ],
-      "run_id": "bounded-queue-depth-controller-for-cpu-worker-proxmox-1-db71c5f4de42-20260609T212221059442+0000",
+      "run_id": "bounded-queue-depth-controller-for-cpu-worker-db71c5f4de42-20260609T212221059442+0000",
       "score": 98,
       "status": "useful_signal",
-      "title": "Bounded Queue Depth Controller for CPU Worker Proxmox-1"
+      "title": "Bounded Queue Depth Controller for CPU Worker"
     },
     {
       "bucket": "top_external_researcher_candidates",
@@ -54065,7 +54065,7 @@
     {
       "bucket": "followup_recommended",
       "bucket_label": "Follow-up recommended",
-      "project_id": "cpu-only-n-gram-speculative-decoding-cascade-on-cpu-proxmox-1-93b47bc6140e",
+      "project_id": "cpu-only-n-gram-speculative-decoding-cascade-on-cpu-worker-93b47bc6140e",
       "reasons": [
         "moderate evidence_strength",
         "mixed hypothesis_status",
@@ -54075,10 +54075,10 @@
         "metrics artifact is present",
         "project decision artifact is present"
       ],
-      "run_id": "cpu-only-n-gram-speculative-decoding-cascade-on-cpu-proxmox-1-93b47bc6140e-20260629T164012664990+0000",
+      "run_id": "cpu-only-n-gram-speculative-decoding-cascade-on-cpu-worker-93b47bc6140e-20260629T164012664990+0000",
       "score": 83,
       "status": "useful_signal",
-      "title": "CPU-Only N-Gram Speculative Decoding Cascade on cpu-proxmox-1"
+      "title": "CPU-Only N-Gram Speculative Decoding Cascade on cpu-worker"
     },
     {
       "bucket": "followup_recommended",
@@ -61713,7 +61713,7 @@
     {
       "bucket": "followup_recommended",
       "bucket_label": "Follow-up recommended",
-      "project_id": "fp8-mixed-precision-training-with-fp32-master-weights-on-cpu-proxmox-1-ba6125ed0044",
+      "project_id": "fp8-mixed-precision-training-with-fp32-master-weights-on-cpu-worker-ba6125ed0044",
       "reasons": [
         "moderate evidence_strength",
         "mixed hypothesis_status",
@@ -61723,10 +61723,10 @@
         "metrics artifact is present",
         "project decision artifact is present"
       ],
-      "run_id": "fp8-mixed-precision-training-with-fp32-master-weights-on-cpu-proxmox-1-ba6125ed0044-20260610T102800436544+0000",
+      "run_id": "fp8-mixed-precision-training-with-fp32-master-weights-on-cpu-worker-ba6125ed0044-20260610T102800436544+0000",
       "score": 83,
       "status": "useful_signal",
-      "title": "FP8 mixed-precision training with FP32 master weights on CPU-Proxmox-1"
+      "title": "FP8 mixed-precision training with FP32 master weights on CPU worker"
     },
     {
       "bucket": "followup_recommended",
