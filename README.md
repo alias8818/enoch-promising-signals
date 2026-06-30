@@ -6,18 +6,18 @@ These records are **not validated papers**, **not peer reviewed**, **not publica
 
 ## Current export
 
-The current export contains 519 deterministic, contract-clean signals from the Enoch control plane.
+The current export contains 6379 deterministic, contract-clean signals from the Enoch control plane.
 
 Status counts:
-- `compute_scale_blocked`: 67
-- `useful_signal`: 452
+- `compute_scale_blocked`: 72
+- `useful_signal`: 6307
 
 Deterministic curation buckets:
-- [Top external-researcher candidates](signals/buckets/top-external-researcher-candidates.md): 129
-- [Compute-scale blocked](signals/buckets/compute-scale-blocked.md): 67
-- [Follow-up recommended](signals/buckets/followup-recommended.md): 212
-- [Weak/local-only preserved signals](signals/buckets/weak-local-only-preserved.md): 61
-- [Likely stale/low-value archive](signals/buckets/likely-stale-low-value-archive.md): 50
+- [Top external-researcher candidates](signals/buckets/top-external-researcher-candidates.md): 2194
+- [Compute-scale blocked](signals/buckets/compute-scale-blocked.md): 72
+- [Follow-up recommended](signals/buckets/followup-recommended.md): 3263
+- [Weak/local-only preserved signals](signals/buckets/weak-local-only-preserved.md): 129
+- [Likely stale/low-value archive](signals/buckets/likely-stale-low-value-archive.md): 721
 
 Start with the generated [ranked index](signals/ranked-index.md). The generated title index is in [signals/index.md](signals/index.md). Machine-readable source of truth is [data/signals.jsonl](data/signals.jsonl), ranking metadata is in [data/ranking.json](data/ranking.json), and count/status accounting is in [data/manifest.json](data/manifest.json).
 

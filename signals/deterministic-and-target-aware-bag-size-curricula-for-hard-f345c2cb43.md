@@ -26,7 +26,7 @@ Reasons:
 ## Source
 
 - Efficient Pre-Training with Token Superposition: https://arxiv.org/abs/2605.06546
-- Token Superposition for Long-Context Anchor Compression: https://arxiv.org/abs/2605.06546
+- TST Branch Oracle: Discriminative Proxy Ranking for Token-Superposition Variant Selection: https://arxiv.org/abs/2605.06546
 
 ## What looked useful
 

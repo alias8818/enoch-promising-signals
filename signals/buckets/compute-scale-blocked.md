@@ -2,7 +2,7 @@
 
 This bucket is generated from deterministic exported fields, not from manual or LLM review.
 
-Count: `67`
+Count: `72`
 
 | Title | Score | Status | Evidence | Reasons |
 |---|---:|---|---|---|
@@ -46,10 +46,12 @@ Count: `67`
 | [Medium Confirmation of Small/Large LM Entropy Cascade Routing](../medium-confirmation-of-small-large-lm-entropy-cascade-rout-d1012a5de3.md) | `83` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
 | [Medium real-KV anchor router benchmark](../medium-real-kv-anchor-router-benchmark-73c2329123.md) | `83` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
 | [Medium validation of deployable PPL/uncertainty gates for no-KV-reuse LM cascades](../medium-validation-of-deployable-ppl-uncertainty-gates-for-05dff99f7d.md) | `83` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
+| [Multi-seed GPT-2-small shard watermark survival under longer public-corpus fine-tuning](../multi-seed-gpt-2-small-shard-watermark-survival-under-long-aa69a046fd.md) | `83` | `compute_scale_blocked` | moderate | moderate evidence_strength; supported hypothesis_status; source lineage present |
 | [Outlier-Channel Residual for 2-bit Weights](../outlier-channel-residual-for-2-bit-weights-2dc3ba49138c.md) | `83` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
 | [Parameter-Matched Residual-Channel 2-Bit GPT Proxy With Packed Kernels](../parameter-matched-residual-channel-2-bit-gpt-proxy-with-pa-6568574932.md) | `83` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
 | [PPL-Gated Local Cascade with KV Handoff](../ppl-gated-local-cascade-with-kv-handoff-92f25ad19b9a.md) | `83` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
 | [Real Small-Model Evidence-Ledger Jury Benchmark](../real-small-model-evidence-ledger-jury-benchmark-0ba0c258c3.md) | `83` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
+| [Real-token tiny LM INT8-QAT with post-conversion evaluation](../real-token-tiny-lm-int8-qat-with-post-conversion-evaluatio-b86f910799.md) | `83` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
 | [Real-Transformer Anchor-Preserved KV Cache Evaluation](../real-transformer-anchor-preserved-kv-cache-evaluation-fff3f43dd3.md) | `83` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
 | [Rollback Ledger with Tiny Learned Error Detector](../rollback-ledger-with-tiny-learned-error-detector-560e1d9acda5.md) | `83` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
 | [Structured Ledger Rejection Sampling for Local Agents](../structured-ledger-rejection-sampling-for-local-agents-75263160c1cb.md) | `83` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
@@ -66,6 +68,9 @@ Count: `67`
 | [Uncertainty-gated anchor KV eviction across real LMs and cache budgets](../uncertainty-gated-anchor-kv-eviction-across-real-lms-and-c-49749d6603.md) | `78` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
 | [Integrated commit-reveal audit on a real GPT-2-small training optimizer trace](../integrated-commit-reveal-audit-on-a-real-gpt-2-small-train-44f22cfc92.md) | `73` | `compute_scale_blocked` | moderate | moderate evidence_strength; supported hypothesis_status; source lineage present |
 | [Deterministic and Target-Aware Bag-Size Curricula for Hard Superposition](../deterministic-and-target-aware-bag-size-curricula-for-hard-f345c2cb43.md) | `72` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
+| [Bounded home distributed pretraining: 1-3 GB10 nodes with gradient compression](../bounded-home-distributed-pretraining-1-3-gb10-nodes-with-gradient-compression-54e5fded91fd.md) | `68` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
+| [Byte-Anchored Needle-in-Haystack at 64k on Consumer GPU](../byte-anchored-needle-in-haystack-at-64k-on-consumer-gpu-f208782b64a0.md) | `68` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
+| [Domain mixture sweep for GPT-2-small home pretraining](../domain-mixture-sweep-for-gpt-2-small-home-pretraining-59244dde7b44.md) | `68` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
 | [Generative local LLM confidence cascade with actual server tail latency](../generative-local-llm-confidence-cascade-with-actual-server-00a5434e21.md) | `63` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
 | [Real-report validation of trace-specific gains in multi-claim auditing](../real-report-validation-of-trace-specific-gains-in-multi-cl-afbbf95ada.md) | `63` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
 | [Int4 KV residual-window validation with measured memory and standard language metrics](../int4-kv-residual-window-validation-with-measured-memory-an-6c4762396d.md) | `58` | `compute_scale_blocked` | moderate | moderate evidence_strength; mixed hypothesis_status; source lineage present |
