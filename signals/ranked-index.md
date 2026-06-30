@@ -5677,6 +5677,7 @@ Ranking is deterministic. It is computed only from exported signal fields: evide
 | [2-bit+FP16 residual weight quantization for CPU inference](2-bit-fp16-residual-weight-quantization-for-cpu-inference-af553de5c7de.md) | `53` | Likely stale/low-value archive | `useful_signal` | moderate | moderate evidence_strength; unsupported hypothesis_status; source lineage present |
 | [4-bit Adam with Stochastic Rounding and Per-Tensor Scale](4-bit-adam-with-stochastic-rounding-and-per-tensor-scale-4c13448cfc24.md) | `53` | Likely stale/low-value archive | `useful_signal` | moderate | moderate evidence_strength; unsupported hypothesis_status; source lineage present |
 | [4-bit AdamW + error feedback for GPT-2-small pretraining](4-bit-adamw-error-feedback-for-gpt-2-small-pretraining-70780c8174cd.md) | `53` | Likely stale/low-value archive | `useful_signal` | moderate | moderate evidence_strength; unsupported hypothesis_status; source lineage present |
+| [4-bit AdamW with error feedback vs 8-bit baseline](4-bit-adamw-with-error-feedback-vs-8-bit-baseline-e27d90367830.md) | `53` | Likely stale/low-value archive | `useful_signal` | moderate | moderate evidence_strength; unsupported hypothesis_status; source lineage present |
 | [4-bit AdamW with error-feedback at 124M GPT-2 on GB10](4-bit-adamw-with-error-feedback-at-124m-gpt-2-on-gb10-e0451689ac6f.md) | `53` | Likely stale/low-value archive | `useful_signal` | moderate | moderate evidence_strength; unsupported hypothesis_status; source lineage present |
 | [4-bit base weights with rank-1 LoRA fine-tuning on CPU versus fp32 baseline](4-bit-base-weights-with-rank-1-lora-fine-tuning-on-cpu-versus-fp32-baseline-f62dc101f66a.md) | `53` | Likely stale/low-value archive | `useful_signal` | moderate | moderate evidence_strength; unsupported hypothesis_status; source lineage present |
 | [4-bit Coupled Norms Enable 2x Context GPT2](4-bit-coupled-norms-enable-2x-context-gpt2-c5e11467afb9.md) | `53` | Likely stale/low-value archive | `useful_signal` | moderate | moderate evidence_strength; unsupported hypothesis_status; source lineage present |
@@ -6390,4 +6391,4 @@ Ranking is deterministic. It is computed only from exported signal fields: evide
 - [Compute-scale blocked](buckets/compute-scale-blocked.md): `72`
 - [Follow-up recommended](buckets/followup-recommended.md): `3263`
 - [Weak/local-only preserved signals](buckets/weak-local-only-preserved.md): `129`
-- [Likely stale/low-value archive](buckets/likely-stale-low-value-archive.md): `721`
+- [Likely stale/low-value archive](buckets/likely-stale-low-value-archive.md): `722`

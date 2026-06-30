@@ -2,7 +2,7 @@
   "bucket_counts": {
     "compute_scale_blocked": 72,
     "followup_recommended": 3263,
-    "likely_stale_low_value_archive": 721,
+    "likely_stale_low_value_archive": 722,
     "top_external_researcher_candidates": 2194,
     "weak_local_only_preserved": 129
   },
@@ -13,7 +13,7 @@
     "top_external_researcher_candidates": "Top external-researcher candidates",
     "weak_local_only_preserved": "Weak/local-only preserved signals"
   },
-  "generated_at": "2026-06-30T18:30:58.953763+00:00",
+  "generated_at": "2026-06-30T18:35:21.272057+00:00",
   "items": [
     {
       "bucket": "top_external_researcher_candidates",
@@ -102312,6 +102312,24 @@
       "score": 53,
       "status": "useful_signal",
       "title": "4-bit AdamW + error feedback for GPT-2-small pretraining"
+    },
+    {
+      "bucket": "likely_stale_low_value_archive",
+      "bucket_label": "Likely stale/low-value archive",
+      "project_id": "4-bit-adamw-with-error-feedback-vs-8-bit-baseline-e27d90367830",
+      "reasons": [
+        "moderate evidence_strength",
+        "unsupported hypothesis_status",
+        "source lineage present",
+        "bounded follow-up is specified",
+        "local evidence artifact paths are present",
+        "metrics artifact is present",
+        "project decision artifact is present"
+      ],
+      "run_id": "4-bit-adamw-with-error-feedback-vs-8-bit-baseline-e27d90367830-20260630T182643511232+0000",
+      "score": 53,
+      "status": "useful_signal",
+      "title": "4-bit AdamW with error feedback vs 8-bit baseline"
     },
     {
       "bucket": "likely_stale_low_value_archive",

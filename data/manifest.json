@@ -5,7 +5,7 @@
     "promising_if_scaled",
     "useful_signal"
   ],
-  "generated_at": "2026-06-30T18:30:58.970540+00:00",
+  "generated_at": "2026-06-30T18:35:21.285061+00:00",
   "index_file": "signals/index.md",
   "project_ids": [
     "1-5-bit-weight-quantization-with-learned-residual-channel-selection-a821d3a65335",
@@ -138,6 +138,7 @@
     "4-bit-adam-with-stochastic-rounding-and-per-tensor-scale-4c13448cfc24",
     "4-bit-adamw-error-feedback-for-gpt-2-small-pretraining-70780c8174cd",
     "4-bit-adamw-with-error-feedback-at-124m-gpt-2-on-gb10-e0451689ac6f",
+    "4-bit-adamw-with-error-feedback-vs-8-bit-baseline-e27d90367830",
     "4-bit-agent-memory-with-residual-error-ledger-for-cpu-bound-agents-0bb4ebdced93",
     "4-bit-base-lora-fine-tuning-within-6gb-on-gb10-f785846a763b",
     "4-bit-base-weights-with-rank-1-lora-fine-tuning-on-cpu-versus-fp32-baseline-f62dc101f66a",
@@ -6401,23 +6402,23 @@
   "ranking_summary": {
     "compute_scale_blocked": 72,
     "followup_recommended": 3263,
-    "likely_stale_low_value_archive": 721,
+    "likely_stale_low_value_archive": 722,
     "top_external_researcher_candidates": 2194,
     "weak_local_only_preserved": 129
   },
-  "record_count": 6379,
+  "record_count": 6380,
   "schema_file": "schemas/promising-signal.schema.json",
   "schema_version": "enoch_promising_signal_manifest_v1",
   "selection_summary": {
     "backfilled_exportable": 267,
     "excluded_paper_or_corpus": 274,
-    "export_cleanly_now": 6379,
-    "hard_negative_or_stale": 1294,
+    "export_cleanly_now": 6380,
+    "hard_negative_or_stale": 1293,
     "missing_required_evidence_or_fields": 9,
     "total_candidate_rows": 7956
   },
   "status_counts": {
     "compute_scale_blocked": 72,
-    "useful_signal": 6307
+    "useful_signal": 6308
   }
 }
