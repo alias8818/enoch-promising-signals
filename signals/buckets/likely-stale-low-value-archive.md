@@ -2,7 +2,7 @@
 
 This bucket is generated from deterministic exported fields, not from manual or LLM review.
 
-Count: `722`
+Count: `723`
 
 | Title | Score | Status | Evidence | Reasons |
 |---|---:|---|---|---|
@@ -206,6 +206,7 @@ Count: `722`
 | [Full-Qasper Adaptive Routing With Generation and Strong Retrieval Controls](../full-qasper-adaptive-routing-with-generation-and-strong-re-236be71af6.md) | `53` | `useful_signal` | moderate | moderate evidence_strength; unsupported hypothesis_status; source lineage present |
 | [GPT-2-Small Early-Exit Self-Speculation With KV-Cache Timing](../gpt-2-small-early-exit-self-speculation-with-kv-cache-timi-1b4b9927c1.md) | `53` | `useful_signal` | moderate | moderate evidence_strength; unsupported hypothesis_status; source lineage present |
 | [GPT-2-small perplexity and generation check for grouped 2-bit KV-cache quantization](../gpt-2-small-perplexity-and-generation-check-for-grouped-2-058b1b29c9.md) | `53` | `useful_signal` | moderate | moderate evidence_strength; unsupported hypothesis_status; source lineage present |
+| [GPT-2-small-class Medusa head tree-verify benchmark on real text](../gpt-2-small-class-medusa-head-tree-verify-benchmark-on-rea-10a4800993.md) | `53` | `useful_signal` | moderate | moderate evidence_strength; unsupported hypothesis_status; source lineage present |
 | [GPT-2-small-class ternary draft speculative decoding validation](../gpt-2-small-class-ternary-draft-speculative-decoding-valid-2212a045c9.md) | `53` | `useful_signal` | moderate | moderate evidence_strength; unsupported hypothesis_status; source lineage present |
 | [Gradient Checkpointing with Layer Importance Ranking for gb10 VRAM Reduction](../gradient-checkpointing-with-layer-importance-ranking-for-gb10-vram-reduction-7936ee932f98.md) | `53` | `useful_signal` | moderate | moderate evidence_strength; unsupported hypothesis_status; source lineage present |
 | [Gradient Correlation Puzzle for CPU-Verifiable Volunteer Work](../gradient-correlation-puzzle-for-cpu-verifiable-volunteer-work-73e8eab69ed1.md) | `53` | `useful_signal` | moderate | moderate evidence_strength; unsupported hypothesis_status; source lineage present |

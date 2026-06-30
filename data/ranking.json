@@ -2,7 +2,7 @@
   "bucket_counts": {
     "compute_scale_blocked": 72,
     "followup_recommended": 3263,
-    "likely_stale_low_value_archive": 722,
+    "likely_stale_low_value_archive": 723,
     "top_external_researcher_candidates": 2194,
     "weak_local_only_preserved": 129
   },
@@ -13,7 +13,7 @@
     "top_external_researcher_candidates": "Top external-researcher candidates",
     "weak_local_only_preserved": "Weak/local-only preserved signals"
   },
-  "generated_at": "2026-06-30T18:38:13.708747+00:00",
+  "generated_at": "2026-06-30T18:43:30.441343+00:00",
   "items": [
     {
       "bucket": "top_external_researcher_candidates",
@@ -105624,6 +105624,24 @@
       "score": 53,
       "status": "useful_signal",
       "title": "GPT-2-small perplexity and generation check for grouped 2-bit KV-cache quantization"
+    },
+    {
+      "bucket": "likely_stale_low_value_archive",
+      "bucket_label": "Likely stale/low-value archive",
+      "project_id": "gpt-2-small-class-medusa-head-tree-verify-benchmark-on-rea-10a4800993",
+      "reasons": [
+        "moderate evidence_strength",
+        "unsupported hypothesis_status",
+        "source lineage present",
+        "bounded follow-up is specified",
+        "local evidence artifact paths are present",
+        "metrics artifact is present",
+        "project decision artifact is present"
+      ],
+      "run_id": "gpt-2-small-class-medusa-head-tree-verify-benchmark-on-rea-10a4800993-20260630T183617207982+0000",
+      "score": 53,
+      "status": "useful_signal",
+      "title": "GPT-2-small-class Medusa head tree-verify benchmark on real text"
     },
     {
       "bucket": "likely_stale_low_value_archive",
