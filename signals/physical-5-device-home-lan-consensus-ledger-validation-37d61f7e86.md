@@ -29,7 +29,7 @@ Reasons:
 
 ## What looked useful
 
-The LAN has many reachable devices, including 56 ping-responsive remote peers and 28 remote peers with SSH-like ports open, but none allowed BatchMode command execution. Reachability is therefore not enough to support the proposed five-device physical ledger validation in this environment.
+The LAN has many reachable devices, including local-only network probe details omitted from the public surface, but none allowed BatchMode command execution. Reachability is therefore not enough to support the proposed five-device physical ledger validation in this environment.
 
 ## Boundaries and scale limits
 
@@ -37,7 +37,7 @@ The probe measured LAN reachability and remote command-execution availability on
 
 ## Claim scope
 
-On the current default home LAN from host <lan-ip>, a physical five-device consensus-ledger validation cannot be launched autonomously because only the local host is execution-capable; zero remote LAN peers accepted non-interactive SSH command execution.
+On the current default home LAN from host <lan-ip>, a physical five-device consensus-ledger validation cannot be launched autonomously because only the local host is execution-capable; zero remote LAN peers accepted automated command execution.
 
 ## Why it stopped
 
@@ -45,7 +45,7 @@ The controlled direct test failed the minimum five-executor threshold: 1 availab
 
 ## Recommended next action
 
-Stop this run as a direct Tier 1 cohort-availability failure; rerun only after provisioning four remote LAN peers for passwordless SSH or an equivalent authenticated execution path.
+Stop this run as a direct Tier 1 cohort-availability failure; rerun only after provisioning four remote LAN peers for an authenticated execution path or an equivalent authenticated execution path.
 
 ## Follow-up
 

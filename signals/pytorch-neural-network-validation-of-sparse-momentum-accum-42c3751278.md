@@ -34,7 +34,7 @@ Corrected row-wise sparse momentum passed the Tier 1 threshold: mean validation 
 
 ## Boundaries and scale limits
 
-Synthetic task only; 5000-token vocabulary, 32-dimensional embedding, 4096 training samples, 2048 validation samples, 18 epochs, 3 seeds. No real dataset, no long training, no GPT-2-scale model, no production optimizer implementation, and no comparison to SparseAdam or dense parameter-matched baselines.
+Synthetic task only; 5000-item vocabulary, 32-dimensional embedding, 4096 training samples, 2048 validation samples, 18 epochs, 3 seeds. No real dataset, no long training, no GPT-2-scale model, no production optimizer implementation, and no comparison to SparseAdam or dense parameter-matched baselines.
 
 ## Claim scope
 

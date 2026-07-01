@@ -33,7 +33,7 @@ N-gram speculative drafting can reduce local target-model calls and latency when
 
 ## Boundaries and scale limits
 
-Tested only distilgpt2 and sshleifer/tiny-gpt2 with greedy decoding, one local GPU process, short 64-token generations, synthetic/prompted repeated text, and a Python/Hugging Face implementation. Did not test true multi-model cascades, 7B+ targets, production inference engines, batching, quantization, sampling, or real traffic.
+Tested only distilgpt2 and sshleifer/tiny-gpt2 with greedy decoding, one local GPU process, short 64-item generations, synthetic/prompted repeated text, and a Python/Hugging Face implementation. Did not test true multi-model cascades, 7B+ targets, production inference engines, batching, quantization, sampling, or real traffic.
 
 ## Claim scope
 

@@ -37,7 +37,7 @@ No real transformer generation, no perplexity/task-quality measurement, no multi
 
 ## Claim scope
 
-Synthetic single-layer attention traces with 1024-token KV caches, 64-dimensional K/V, fixed cache budgets of 64/128/256 slots, deterministic contiguous mean compression with log-count attention correction, and controlled prefix-heavy, mixed, recent-heavy, and noisy-prefix query regimes.
+Synthetic single-layer attention traces with 1024-item KV caches, 64-dimensional K/V, fixed cache budgets of 64/128/256 slots, deterministic contiguous mean compression with log-count attention correction, and controlled prefix-heavy, mixed, recent-heavy, and noisy-prefix query regimes.
 
 ## Why it stopped
 

@@ -34,7 +34,7 @@ Frequency-selected 5% residual rows improved mean test accuracy from 0.8057 for 
 
 ## Boundaries and scale limits
 
-Small non-transformer classifier, 2334 train and 1555 test documents, 12k-token vocabulary, 64-dimensional embeddings, post-training embedding-only quantization, exact restored residual rows, no packed-runtime kernel or GPT-2-small-class validation.
+Small non-transformer classifier, 2334 train and 1555 test documents, 12k-item vocabulary, 64-dimensional embeddings, post-training embedding-only quantization, exact restored residual rows, no packed-runtime kernel or GPT-2-small-class validation.
 
 ## Claim scope
 

@@ -34,7 +34,7 @@ The compact rollback ledger recovered correctly in 1,200 injected crash/recovery
 
 ## Boundaries and scale limits
 
-No power-loss testing, no ext4/NVMe or tmpfs replication, no production trace workload, and SQLite WAL failures may be specific to the /mnt/usb project filesystem or process model.
+No power-loss testing, no ext4/NVMe or tmpfs replication, no production trace workload, and SQLite WAL failures may be specific to the <local-path> project filesystem or process model.
 
 ## Claim scope
 

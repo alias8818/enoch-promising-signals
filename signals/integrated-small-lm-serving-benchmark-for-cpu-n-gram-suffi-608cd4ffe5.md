@@ -34,7 +34,7 @@ Order-3/order-4 exact n-gram suffix drafting preserved greedy outputs and reache
 
 ## Boundaries and scale limits
 
-Validated on one small LM, 12 general prompts, 12 repetition-rich prompts, 48 generated tokens per prompt, PyTorch/Hugging Face CPU inference with 4 threads; not validated on production traces, larger models, tuned CPU runtimes, or long-running serving workloads.
+Validated on one small LM, 12 general prompts, 12 repetition-rich prompts, 48 generated generated items per prompt, PyTorch/Hugging Face CPU inference with 4 threads; not validated on production traces, larger models, tuned CPU runtimes, or long-running serving workloads.
 
 ## Claim scope
 

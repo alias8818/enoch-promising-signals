@@ -37,7 +37,7 @@ No full language model, no learned anchor selector, no multi-layer error accumul
 
 ## Claim scope
 
-Synthetic one-step softmax attention at 8192 tokens, 64-dimensional K/V, three random seeds: exact-anchor hierarchical KV compression at 7.8% retained KV ratio preserves anchor-aligned exact retrieval far better than no-anchor summaries or uniform exact-token retention, but does not preserve exact retrieval for summarized non-anchor tokens.
+Synthetic one-step softmax attention at 8192 sequence items, 64-dimensional K/V, three random seeds: exact-anchor hierarchical KV compression at 7.8% retained KV ratio preserves anchor-aligned exact retrieval far better than no-anchor summaries or uniform exact-token retention, but does not preserve exact retrieval for summarized non-anchor tokens.
 
 ## Why it stopped
 

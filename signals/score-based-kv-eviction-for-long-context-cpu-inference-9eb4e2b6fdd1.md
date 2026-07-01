@@ -33,11 +33,11 @@ Score-based eviction reduced mean attention-output MSE versus recent eviction by
 
 ## Boundaries and scale limits
 
-Proxy-only single-layer attention; no pretrained language model, no tokenizer/document distribution, no real CPU inference kernel, no task quality or perplexity, no comparison to established heavy-hitter KV eviction baselines, and no validation beyond 2048-token context.
+Proxy-only single-layer attention; no pretrained language model, no tokenizer/document distribution, no real CPU inference kernel, no task quality or perplexity, no comparison to established heavy-hitter KV eviction baselines, and no validation beyond 2048-item context.
 
 ## Claim scope
 
-In a deterministic synthetic CPU decode-attention proxy with 2048-token contexts, 64-dimensional keys/values, 5 seeds, and fixed KV budgets of 128 or 256 slots, pure score-based eviction preserves long-range reused anchor tokens better than recent or random eviction, lowering attention-output MSE versus a full-KV reference.
+In a deterministic synthetic CPU decode-attention proxy with 2048-item contexts, 64-dimensional keys/values, 5 seeds, and fixed KV budgets of 128 or 256 slots, pure score-based eviction preserves long-range reused anchor tokens better than recent or random eviction, lowering attention-output MSE versus a full-KV reference.
 
 ## Why it stopped
 

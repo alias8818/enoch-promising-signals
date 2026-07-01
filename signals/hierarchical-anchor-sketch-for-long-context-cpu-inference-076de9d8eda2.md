@@ -37,7 +37,7 @@ Does not test a real transformer decoder, natural language tasks, learned anchor
 
 ## Claim scope
 
-Bounded CPU/NumPy synthetic retrieval benchmark for simple mean-anchor flat and two-level hierarchical candidate selection at 8192 to 65536 tokens, 64-dimensional keys, and 256 queries per main condition.
+Bounded CPU/NumPy synthetic retrieval benchmark for simple mean-anchor flat and two-level hierarchical candidate selection at 8192 to 65536 sequence items, 64-dimensional vectors, and 256 queries per main condition.
 
 ## Why it stopped
 

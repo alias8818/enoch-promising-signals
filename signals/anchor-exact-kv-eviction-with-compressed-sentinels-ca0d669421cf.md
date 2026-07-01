@@ -37,7 +37,7 @@ No real transformer perplexity or downstream task evaluation; no learned anchor 
 
 ## Claim scope
 
-Synthetic single-head attention reconstruction with oracle periodic anchors, mean-compressed sentinels, 512-token sequences, 64-dimensional K/V, and a 96-entry cache budget.
+Synthetic single-head attention reconstruction with oracle periodic anchors, mean-compressed sentinels, 512-item sequences, 64-dimensional K/V, and a 96-entry cache budget.
 
 ## Why it stopped
 

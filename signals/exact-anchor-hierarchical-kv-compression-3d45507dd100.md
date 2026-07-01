@@ -37,7 +37,7 @@ No pretrained transformer, real language modeling, multi-head cache trace, throu
 
 ## Claim scope
 
-Synthetic attention-only evaluation of exact anchor retention plus mean-summary hierarchical pseudo-KV entries on 4096-token, 64-dimensional caches across smooth, anchor-retrieval, and non-anchor-retrieval regimes.
+Synthetic attention-only evaluation of exact anchor retention plus mean-summary hierarchical pseudo-KV entries on 4096-item, 64-dimensional caches across smooth, anchor-retrieval, and non-anchor-retrieval regimes.
 
 ## Why it stopped
 

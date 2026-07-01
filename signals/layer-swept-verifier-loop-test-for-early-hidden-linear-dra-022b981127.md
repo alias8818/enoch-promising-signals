@@ -38,7 +38,7 @@ Toy causal teacher only; no pretrained transformer, no real text corpus, no KV-c
 
 ## Claim scope
 
-In a self-contained toy frozen causal teacher with 64-token vocabulary, 96-dimensional hidden states, 8 nonlinear residual layers, 6000 probe-training examples, and 2000 held-out examples per seed, layer-swept linear probes from early layers matched the teacher final top-1 token with mean verifier acceptance 0.734 across three seeds.
+In a self-contained toy frozen causal teacher with 64-item vocabulary, 96-dimensional hidden states, 8 nonlinear residual layers, 6000 probe-training examples, and 2000 held-out examples per seed, layer-swept linear probes from early layers matched the teacher final top-1 token with mean verifier acceptance 0.734 across three seeds.
 
 ## Why it stopped
 

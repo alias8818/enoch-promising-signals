@@ -37,7 +37,7 @@ No pretrained transformer, real KV trace, perplexity/task metric, online residua
 
 ## Claim scope
 
-Synthetic NumPy attention-fidelity probe over 512-token, 64-dimensional K/V tensors shows that a 1-bit rowwise KV cache plus fp16 rank-1 or rank-2 residual channel can reduce attention-output error below the pure 1-bit baseline while staying under 2 effective bits/value.
+Synthetic NumPy attention-fidelity probe over 512-item, 64-dimensional K/V tensors shows that a 1-bit rowwise KV cache plus fp16 rank-1 or rank-2 residual channel can reduce attention-output error below the pure 1-bit baseline while staying under 2 effective bits/value.
 
 ## Why it stopped
 
