@@ -37,7 +37,7 @@ Synthetic Markov data, previous-token softmax model, 48-token vocabulary, 1200 o
 
 ## Claim scope
 
-In a NumPy CPU tiny previous-token language-model proxy with synthetic Markov difficulty bands, a naive fixed-phase easy-to-hard curriculum under a matched token budget loses to uniform mixed difficulty sampling on mean held-out negative log-likelihood.
+In a NumPy CPU tiny previous-token language-model proxy with synthetic Markov difficulty bands, a naive fixed-phase easy-to-hard curriculum under a matched sequence-item budget loses to uniform mixed difficulty sampling on mean held-out negative log-likelihood.
 
 ## Why it stopped
 

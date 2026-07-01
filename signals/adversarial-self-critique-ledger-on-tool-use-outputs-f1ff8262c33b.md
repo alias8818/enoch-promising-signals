@@ -45,7 +45,7 @@ No-paper closure: the run produced a useful synthetic mechanism signal, but it i
 
 ## Recommended next action
 
-Run a bounded direct LLM-agent follow-up where a model produces tool-use answers and critiques under matched token budgets, using the same ledger rubric and held-out trace tasks.
+Run a bounded direct LLM-agent follow-up where a model produces tool-use answers and critiques under matched sequence-item budgets, using the same ledger rubric and held-out trace tasks.
 
 ## Follow-up
 

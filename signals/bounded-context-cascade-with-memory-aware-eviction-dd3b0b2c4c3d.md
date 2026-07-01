@@ -37,7 +37,7 @@ Proxy-only CPU simulation; no real language model, KV cache integration, real su
 
 ## Claim scope
 
-Synthetic delayed-lookup traces with 2000 chunks, fixed token budgets of 2048/4096/8192, and four eviction policies show that compressed cascade tiers improve long-age recall over exact-only LRU, but the tested memory-aware cascade rule does not improve overall weighted recall over a simpler FIFO cascade.
+Synthetic delayed-lookup traces with 2000 chunks, fixed sequence-item budgets of 2048/4096/8192, and four eviction policies show that compressed cascade tiers improve long-age recall over exact-only LRU, but the tested memory-aware cascade rule does not improve overall weighted recall over a simpler FIFO cascade.
 
 ## Why it stopped
 

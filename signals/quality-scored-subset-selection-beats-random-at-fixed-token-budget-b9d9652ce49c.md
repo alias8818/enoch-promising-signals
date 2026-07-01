@@ -1,4 +1,4 @@
-# Quality-Scored Subset Selection Beats Random at Fixed Token Budget
+# Quality-Scored Subset Selection Beats Random at fixed sequence-item budget
 
 Status: `useful_signal`
 Curation bucket: `top_external_researcher_candidates`

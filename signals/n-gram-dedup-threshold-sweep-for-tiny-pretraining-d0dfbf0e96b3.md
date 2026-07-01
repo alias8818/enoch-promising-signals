@@ -51,7 +51,7 @@ Stop this run as a no-paper useful signal; a bounded follow-up should test real 
 
 - Recommended: `true`
 - Type: `deepen`
-- Title: Real near-duplicate cluster dedup threshold sweep with fixed token budget
+- Title: Real near-duplicate cluster dedup threshold sweep with fixed sequence-item budget
 - Success threshold: A moderate threshold beats no-dedup on mean clean validation loss by more than one seed standard deviation while reducing duplicate-target memorization exposure by at least 25%.
 - Stop condition: Stop if duplicate removal again fails to improve clean validation loss across at least three seeds or if natural clusters are too sparse to create a valid threshold comparison.
 

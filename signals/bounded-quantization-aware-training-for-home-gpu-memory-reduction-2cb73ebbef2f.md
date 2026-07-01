@@ -53,7 +53,7 @@ Stop this run as a no-paper useful signal; the next bounded direct test should r
 - Type: `deepen`
 - Title: Home-GPU Transformer Test of Fake-QAT Versus Compressed-State Low-Bit Training
 - Success threshold: At least 35% measured CUDA peak-memory reduction versus fp32 AdamW with no more than 5% relative validation-loss degradation at the same token budget.
-- Stop condition: Stop if fake-QAT AdamW reports peak memory within 10% of fp32 AdamW and the compressed-state optimizer either fails to run reproducibly or exceeds 5% relative validation-loss degradation after the fixed token budget.
+- Stop condition: Stop if fake-QAT AdamW reports peak memory within 10% of fp32 AdamW and the compressed-state optimizer either fails to run reproducibly or exceeds 5% relative validation-loss degradation after the fixed sequence-item budget.
 
 ## Evidence references
 

@@ -45,7 +45,7 @@ No paper: current evidence is a bounded synthetic convex proxy that supports the
 
 ## Recommended next action
 
-Run a bounded direct tiny-transformer or GPT-2-small-class pretraining follow-up on a real text corpus with matched token budget, comparing influence, gradient-dot, loss, random, and no-prune controls.
+Run a bounded direct tiny-transformer or GPT-2-small-class pretraining follow-up on a real text corpus with matched sequence-item budget, comparing influence, gradient-dot, loss, random, and no-prune controls.
 
 ## Follow-up
 

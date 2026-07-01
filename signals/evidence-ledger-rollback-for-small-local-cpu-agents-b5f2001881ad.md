@@ -37,7 +37,7 @@ Synthetic structured events only; no LLM natural-language parsing, no real tool 
 
 ## Claim scope
 
-In a deterministic synthetic memory benchmark for small CPU-agent context managers, an explicit evidence ledger with rollback/retraction semantics preserved current factual answers and eliminated stale active corrected facts better than append-only windows and naive summary memory under fixed token budgets.
+In a deterministic synthetic memory benchmark for small CPU-agent context managers, an explicit evidence ledger with rollback/retraction semantics preserved current factual answers and eliminated stale active corrected facts better than append-only windows and naive summary memory under fixed sequence-item budgets.
 
 ## Why it stopped
 

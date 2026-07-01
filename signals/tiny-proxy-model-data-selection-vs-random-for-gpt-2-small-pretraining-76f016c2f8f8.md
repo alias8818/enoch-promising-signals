@@ -45,7 +45,7 @@ No-paper closure: this was a bounded proxy/mechanism probe, not direct GPT-2-sma
 
 ## Recommended next action
 
-Run a medium confirmation focused only on proxy mid-loss selection versus random with a larger GPT-style target, a longer fixed token budget, a frozen protocol, and at least 3 seeds; stop if the mean validation NLL gain is below 0.01 or not positive in most seeds.
+Run a medium confirmation focused only on proxy mid-loss selection versus random with a larger GPT-style target, a longer fixed sequence-item budget, a frozen protocol, and at least 3 seeds; stop if the mean validation NLL gain is below 0.01 or not positive in most seeds.
 
 ## Follow-up
 

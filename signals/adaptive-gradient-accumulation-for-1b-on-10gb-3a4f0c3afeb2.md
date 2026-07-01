@@ -45,14 +45,14 @@ This is a bounded memory and scheduler-proxy result, not a direct 1B transformer
 
 ## Recommended next action
 
-Stop this run as no-paper useful signal; the next bounded test should train a real 1B-class transformer for a short fixed token budget under a hard 10 GiB cap, comparing fixed and adaptive accumulation on OOM rate, tokens/sec, and loss.
+Stop this run as no-paper useful signal; the next bounded test should train a real 1B-class transformer for a short fixed sequence-item budget under a hard 10 GiB cap, comparing fixed and adaptive accumulation on OOM rate, tokens/sec, and loss.
 
 ## Follow-up
 
 - Recommended: `true`
 - Type: `deepen`
 - Title: Direct 1B transformer adaptive accumulation under 10 GiB
-- Success threshold: Adaptive accumulation completes the fixed token budget with zero OOMs, fixed accumulation has at least one OOM or requires lower throughput settings, and adaptive loss is no worse than fixed by 2% at matched tokens with tokens/sec no more than 10% lower.
+- Success threshold: Adaptive accumulation completes the fixed sequence-item budget with zero OOMs, fixed accumulation has at least one OOM or requires lower throughput settings, and adaptive loss is no worse than fixed by 2% at matched tokens with tokens/sec no more than 10% lower.
 - Stop condition: Stop if the real 1B transformer cannot materialize parameters plus optimizer state below 10 GiB, if every fixed microbatch that gives useful throughput exceeds activation headroom, or if adaptive overhead exceeds 10% without reducing OOMs.
 
 ## Evidence references

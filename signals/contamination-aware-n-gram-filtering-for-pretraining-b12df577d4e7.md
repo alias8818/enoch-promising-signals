@@ -45,7 +45,7 @@ Proxy evidence supports the mechanism but does not directly validate contaminati
 
 ## Recommended next action
 
-Run a bounded small-transformer follow-up on an open text corpus with injected held-out contamination and matched token budgets; stop this run because current evidence is synthetic/trigram proxy evidence, not paper-ready direct validation.
+Run a bounded small-transformer follow-up on an open text corpus with injected held-out contamination and matched sequence-item budgets; stop this run because current evidence is synthetic/trigram proxy evidence, not paper-ready direct validation.
 
 ## Follow-up
 
@@ -53,7 +53,7 @@ Run a bounded small-transformer follow-up on an open text corpus with injected h
 - Type: `deepen`
 - Title: Small-transformer validation of rarity-weighted n-gram decontamination
 - Success threshold: Rarity-weighted filtering removes >=95% injected contamination, retains >=98% clean tokens, restores benchmark/eval loss to within 5% of clean-reference, and improves clean-token retention by >=10 percentage points versus naive hard overlap.
-- Stop condition: Stop if the weighted filter misses >5% injected exact contamination at thresholds that retain >=98% clean tokens, or if clean held-out loss is >5% worse than clean-reference under matched token budgets.
+- Stop condition: Stop if the weighted filter misses >5% injected exact contamination at thresholds that retain >=98% clean tokens, or if clean held-out loss is >5% worse than clean-reference under matched sequence-item budgets.
 
 ## Evidence references
 

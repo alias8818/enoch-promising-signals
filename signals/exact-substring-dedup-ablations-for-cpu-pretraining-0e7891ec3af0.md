@@ -45,7 +45,7 @@ Proxy evidence is mixed/negative for validation-quality gains and clearly negati
 
 ## Recommended next action
 
-Stop this run as no-paper proxy evidence; the concrete next test is a bounded small neural LM on a real duplicate-contaminated corpus with matched token budgets and exposure metrics.
+Stop this run as no-paper proxy evidence; the concrete next test is a bounded small neural LM on a real duplicate-contaminated corpus with matched sequence-item budgets and exposure metrics.
 
 ## Follow-up
 

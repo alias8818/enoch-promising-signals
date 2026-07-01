@@ -53,7 +53,7 @@ Stop this run as no-paper useful signal; the next bounded test should run a Tiny
 - Type: `deepen`
 - Title: TinyOpt learning-rate sweep under a 1 GiB transformer-training budget
 - Success threshold: At least one TinyOpt+checkpointing run remains below 1024 MiB peak CUDA allocation and reaches validation loss within 10% of the best AdamW baseline at the same parameter scale and token budget.
-- Stop condition: Stop if TinyOpt cannot avoid divergence across a 10x learning-rate sweep or remains more than 25% worse in validation loss after the fixed token budget.
+- Stop condition: Stop if TinyOpt cannot avoid divergence across a 10x learning-rate sweep or remains more than 25% worse in validation loss after the fixed sequence-item budget.
 
 ## Evidence references
 

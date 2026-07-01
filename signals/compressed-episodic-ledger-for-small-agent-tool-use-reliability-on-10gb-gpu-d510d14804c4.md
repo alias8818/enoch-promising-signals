@@ -37,7 +37,7 @@ No real LLM inference, natural-language extraction, online summarization, real t
 
 ## Claim scope
 
-In synthetic exact-argument tool-use episodes with 96 entities, six attributes, and fixed token budgets, a compressed key-value episodic ledger improves recall reliability over a raw recency window at equal approximate token budget.
+In synthetic exact-argument tool-use episodes with 96 entities, six attributes, and fixed sequence-item budgets, a compressed key-value episodic ledger improves recall reliability over a raw recency window at equal approximate token budget.
 
 ## Why it stopped
 

@@ -45,7 +45,7 @@ No-paper closure: bounded proxy evidence is mixed and conditional, useful for im
 
 ## Recommended next action
 
-Run a bounded deepen follow-up on a real variable-length language-model corpus with padding-aware batching, matched token budgets, convergence curves, and GPT-2-small-class or parameter-matched model scale before considering larger validation.
+Run a bounded deepen follow-up on a real variable-length language-model corpus with padding-aware batching, matched sequence-item budgets, convergence curves, and GPT-2-small-class or parameter-matched model scale before considering larger validation.
 
 ## Follow-up
 

@@ -45,7 +45,7 @@ Proxy evidence is useful but not paper-ready because it is synthetic, threshold-
 
 ## Recommended next action
 
-Run a bounded deepen follow-up on natural long documents using an LLM or embedding-based compressor, with fixed token budgets and downstream answer retrieval metrics.
+Run a bounded deepen follow-up on natural long documents using an LLM or embedding-based compressor, with fixed sequence-item budgets and downstream answer retrieval metrics.
 
 ## Follow-up
 

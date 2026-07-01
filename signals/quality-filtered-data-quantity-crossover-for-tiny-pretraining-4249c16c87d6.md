@@ -45,7 +45,7 @@ Closed as no-paper useful signal: local proxy evidence supports the mechanism na
 
 ## Recommended next action
 
-Run a bounded deepen test with a tokenizer-based small Transformer on real filtered web/text samples, sweeping noise fractions and compute-matched token budgets before considering any paper claim.
+Run a bounded deepen test with a tokenizer-based small Transformer on real filtered web/text samples, sweeping noise fractions and compute-matched sequence-item budgets before considering any paper claim.
 
 ## Follow-up
 

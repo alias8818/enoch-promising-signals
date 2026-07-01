@@ -45,7 +45,7 @@ Proxy/early falsification: the simple low-proxy-perplexity curriculum failed the
 
 ## Recommended next action
 
-Stop this run as a bounded proxy/early falsification of naive low-proxy-perplexity selection; a separate deepen follow-up should test neural-proxy quantile mixtures with fixed token budgets and diversity controls.
+Stop this run as a bounded proxy/early falsification of naive low-proxy-perplexity selection; a separate deepen follow-up should test neural-proxy quantile mixtures with fixed sequence-item budgets and diversity controls.
 
 ## Follow-up
 

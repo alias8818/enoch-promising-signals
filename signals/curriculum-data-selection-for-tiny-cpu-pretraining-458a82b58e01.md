@@ -45,7 +45,7 @@ Proxy-only useful signal: the staged curriculum hypothesis was not supported on 
 
 ## Recommended next action
 
-Run a bounded real-corpus follow-up with a tiny GPT-style Transformer, matched token budgets, random versus quality-filtered versus curriculum schedules, and held-out perplexity on clean/mixed/noisy slices.
+Run a bounded real-corpus follow-up with a tiny GPT-style Transformer, matched sequence-item budgets, random versus quality-filtered versus curriculum schedules, and held-out perplexity on clean/mixed/noisy slices.
 
 ## Follow-up
 

@@ -45,7 +45,7 @@ Proxy/early falsification of naive raw chunk entropy weighting as a reliable tin
 
 ## Recommended next action
 
-Stop this no-paper run; if deepening, run a bounded neural causal-LM confirmation with matched token budgets and the same selection controls before considering scale.
+Stop this no-paper run; if deepening, run a bounded neural causal-LM confirmation with matched sequence-item budgets and the same selection controls before considering scale.
 
 ## Follow-up
 

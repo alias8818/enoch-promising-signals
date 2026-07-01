@@ -53,7 +53,7 @@ Run a bounded natural-language follow-up using a GPT-2 tokenizer and a public co
 - Type: `deepen`
 - Title: Natural-language GPT-2-tokenizer curriculum probe
 - Success threshold: Curriculum wins at least 70% of paired runs and improves mean final validation cross-entropy by at least 0.02 without worse late-stage convergence.
-- Stop condition: Stop if curriculum fails to beat random on a majority of paired runs or the mean final validation-loss improvement is below 0.01 after the fixed token budget.
+- Stop condition: Stop if curriculum fails to beat random on a majority of paired runs or the mean final validation-loss improvement is below 0.01 after the fixed sequence-item budget.
 
 ## Evidence references
 

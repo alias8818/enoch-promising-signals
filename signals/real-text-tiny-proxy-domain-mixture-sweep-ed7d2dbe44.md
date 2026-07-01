@@ -34,7 +34,7 @@ Target fraction produced a clear target-vs-retention tradeoff. Mean Sci/Tech BPB
 
 ## Boundaries and scale limits
 
-Proxy-only result: byte-level tiny model, AG News only, two deeper seeds, short fixed token budget, no GPT-2-scale/subword/full-corpus validation, and no downstream task evaluation.
+Proxy-only result: byte-level tiny model, AG News only, two deeper seeds, short fixed sequence-item budget, no GPT-2-scale/subword/full-corpus validation, and no downstream task evaluation.
 
 ## Claim scope
 

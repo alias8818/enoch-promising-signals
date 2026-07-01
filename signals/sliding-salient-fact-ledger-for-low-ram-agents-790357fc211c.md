@@ -51,7 +51,7 @@ Stop this run as a no-paper useful signal; next run should evaluate the same led
 
 - Recommended: `true`
 - Type: `deepen`
-- Title: Real-Extractor Salient Ledger Under Token Budgets
+- Title: Real-Extractor Salient Ledger under sequence-item budgets
 - Success threshold: At 1024-2048 token-equivalent memory budgets, salient ledger improves held-out query accuracy by at least 10 percentage points over random fact eviction and at least 25 percentage points over sliding windows, with extractor-attributable errors reported separately.
 - Stop condition: Stop if extractor noise reduces salient-ledger accuracy to within 5 percentage points of random fact eviction at both 1024 and 2048 token-equivalent budgets, or if sliding windows match ledger accuracy under the same budget.
 

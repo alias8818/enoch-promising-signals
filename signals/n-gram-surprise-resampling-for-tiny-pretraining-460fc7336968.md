@@ -41,7 +41,7 @@ In a Tiny Shakespeare character-level causal Transformer probe with 800 update s
 
 ## Why it stopped
 
-Bounded direct tiny-LM evidence consistently falsified the simple pure n-gram surprise-resampling hypothesis versus uniform at fixed token budget; this is an early scoped negative result, not a full-scale validation.
+Bounded direct tiny-LM evidence consistently falsified the simple pure n-gram surprise-resampling hypothesis versus uniform at fixed sequence-item budget; this is an early scoped negative result, not a full-scale validation.
 
 ## Recommended next action
 

@@ -1,4 +1,4 @@
-# Exact-Dedup vs MinHash Dedup at Fixed Token Budget for GPT-2-Small
+# Exact-Dedup vs MinHash Dedup at fixed sequence-item budget for GPT-2-Small
 
 Status: `useful_signal`
 Curation bucket: `followup_recommended`

@@ -52,7 +52,7 @@ Stop this run as no-paper useful signal; a bounded deepen follow-up should test 
 - Recommended: `true`
 - Type: `deepen`
 - Title: Tune and validate factored-second-moment AdamW on real-text small LM pretraining
-- Success threshold: At least 40% optimizer-state reduction versus AdamW, validation loss or perplexity within 3% of AdamW at matched token budget, and throughput at least 85% of AdamW on the same hardware.
+- Success threshold: At least 40% optimizer-state reduction versus AdamW, validation loss or perplexity within 3% of AdamW at matched sequence-item budget, and throughput at least 85% of AdamW on the same hardware.
 - Stop condition: Stop if the tuned factored optimizer remains more than 5% worse in validation loss/perplexity or below 75% of AdamW throughput while preserving comparable memory savings.
 
 ## Evidence references

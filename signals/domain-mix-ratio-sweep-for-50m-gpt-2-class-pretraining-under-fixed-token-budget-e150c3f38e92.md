@@ -1,4 +1,4 @@
-# Domain-mix ratio sweep for 50M GPT-2-class pretraining under fixed token budget
+# Domain-mix ratio sweep for 50M GPT-2-class pretraining under fixed sequence-item budget
 
 Status: `useful_signal`
 Curation bucket: `followup_recommended`
@@ -37,7 +37,7 @@ No neural Transformer was trained. No real text corpus, tokenizer, optimizer dyn
 
 ## Claim scope
 
-Under a fixed token budget in a synthetic two-domain causal bigram language-model proxy, an equal-weighted validation objective selected an interior 0.5/0.5 training mix and strongly penalized single-domain edge mixes.
+Under a fixed sequence-item budget in a synthetic two-domain causal bigram language-model proxy, an equal-weighted validation objective selected an interior 0.5/0.5 training mix and strongly penalized single-domain edge mixes.
 
 ## Why it stopped
 

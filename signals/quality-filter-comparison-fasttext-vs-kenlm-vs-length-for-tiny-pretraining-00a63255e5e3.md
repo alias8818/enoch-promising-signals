@@ -45,7 +45,7 @@ Closed as a no-paper useful proxy result: evidence is consistent and reproducibl
 
 ## Recommended next action
 
-Run a bounded neural follow-up using actual fastText and KenLM filters on a small real web-crawl shard, then train the same tiny decoder LM for matched token budgets from each selected corpus.
+Run a bounded neural follow-up using actual fastText and KenLM filters on a small real web-crawl shard, then train the same tiny decoder LM for matched sequence-item budgets from each selected corpus.
 
 ## Follow-up
 

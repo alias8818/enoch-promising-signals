@@ -29,7 +29,7 @@ Reasons:
 
 ## What looked useful
 
-Across three seeds, easy-to-hard perplexity bucketing was worse than random sampling on overall validation loss by a mean relative +0.355%. Bucket diagnostics showed a small easy-bucket gain but harder-bucket degradation, suggesting naive curriculum shifts capacity toward easy examples under a fixed token budget.
+Across three seeds, easy-to-hard perplexity bucketing was worse than random sampling on overall validation loss by a mean relative +0.355%. Bucket diagnostics showed a small easy-bucket gain but harder-bucket degradation, suggesting naive curriculum shifts capacity toward easy examples under a fixed sequence-item budget.
 
 ## Boundaries and scale limits
 

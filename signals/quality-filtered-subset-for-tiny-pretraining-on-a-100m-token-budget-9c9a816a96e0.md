@@ -1,4 +1,4 @@
-# Quality-filtered subset for tiny pretraining on a 100M token budget
+# Quality-filtered subset for tiny pretraining on a 100M sequence-item budget
 
 Status: `useful_signal`
 Curation bucket: `followup_recommended`

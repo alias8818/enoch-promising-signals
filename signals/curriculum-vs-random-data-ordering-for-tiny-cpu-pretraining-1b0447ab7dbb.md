@@ -45,7 +45,7 @@ The result is a controlled synthetic CPU proxy, not full validation of curriculu
 
 ## Recommended next action
 
-Stop this run as no-paper useful-signal evidence; next concrete action is a bounded deepen run using a small Transformer on a real text subset with matched token budget, anti-curriculum control, and multiple seeds.
+Stop this run as no-paper useful-signal evidence; next concrete action is a bounded deepen run using a small Transformer on a real text subset with matched sequence-item budget, anti-curriculum control, and multiple seeds.
 
 ## Follow-up
 

@@ -52,8 +52,8 @@ Stop this worker run as a no-paper proxy result; only pursue a follow-up if runn
 - Recommended: `true`
 - Type: `deepen`
 - Title: Direct GPT-2-small perplexity-bucket curriculum on a real corpus
-- Success threshold: Curriculum must beat random order by at least 0.02 validation NLL overall at matched token budget without worsening any reference-perplexity validation bucket by more than 0.02 NLL at the final checkpoint.
-- Stop condition: Stop if strict or bucket-mixed curriculum fails to beat random order overall by 0.02 validation NLL after the planned matched token budget, or if gains appear only by sacrificing one bucket by more than 0.02 NLL.
+- Success threshold: Curriculum must beat random order by at least 0.02 validation NLL overall at matched sequence-item budget without worsening any reference-perplexity validation bucket by more than 0.02 NLL at the final checkpoint.
+- Stop condition: Stop if strict or bucket-mixed curriculum fails to beat random order overall by 0.02 validation NLL after the planned matched sequence-item budget, or if gains appear only by sacrificing one bucket by more than 0.02 NLL.
 
 ## Evidence references
 

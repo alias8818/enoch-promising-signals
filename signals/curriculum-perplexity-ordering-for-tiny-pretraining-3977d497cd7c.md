@@ -53,7 +53,7 @@ Stop this run as a proxy early falsification of simple probe-perplexity sorted p
 - Type: `deepen`
 - Title: Real-text tiny-transformer check for probe-perplexity curriculum ordering
 - Success threshold: A curriculum condition must improve mean validation perplexity by at least 3% versus random across seeds without worsening any reported validation slice by more than 5%.
-- Stop condition: Stop if all curriculum conditions are worse than random by at least 2% mean validation perplexity after matched token budgets, or if strict sorting again produces clear degradation in all seeds.
+- Stop condition: Stop if all curriculum conditions are worse than random by at least 2% mean validation perplexity after matched sequence-item budgets, or if strict sorting again produces clear degradation in all seeds.
 
 ## Evidence references
 

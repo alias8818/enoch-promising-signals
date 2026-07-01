@@ -1,4 +1,4 @@
-# Tiny mixing-law sweep: code/text/math ratios at matched token budget
+# Tiny mixing-law sweep: code/text/math ratios at matched sequence-item budget
 
 Status: `useful_signal`
 Curation bucket: `top_external_researcher_candidates`

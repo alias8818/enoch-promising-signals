@@ -45,7 +45,7 @@ Closed as no-paper useful signal: controlled evidence supports the mechanism, bu
 
 ## Recommended next action
 
-Run a bounded real-data deepen test on a small public text corpus with matched token budgets, repeated seeds, top/random/bottom quality controls, and tokenizer-matched perplexity before considering a paper claim.
+Run a bounded real-data deepen test on a small public text corpus with matched sequence-item budgets, repeated seeds, top/random/bottom quality controls, and tokenizer-matched perplexity before considering a paper claim.
 
 ## Follow-up
 

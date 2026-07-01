@@ -53,7 +53,7 @@ Run a bounded deepen follow-up with a small local QA model and real tokenizer ac
 - Recommended: `true`
 - Type: `deepen`
 - Title: Model-in-the-loop byte-budgeted anchor memory on small QA tasks
-- Success threshold: At least a 10 percentage point absolute answer-accuracy gain over the best truncation baseline at one or more matched token budgets, with no more than a 5 percentage point drop in worst-position accuracy relative to mean accuracy.
+- Success threshold: At least a 10 percentage point absolute answer-accuracy gain over the best truncation baseline at one or more matched sequence-item budgets, with no more than a 5 percentage point drop in worst-position accuracy relative to mean accuracy.
 - Stop condition: Stop if anchor prompts fail to beat the best truncation baseline by 5 percentage points on a 50-example smoke set or if generated anchors routinely omit answer-bearing evidence.
 
 ## Evidence references

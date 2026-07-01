@@ -37,7 +37,7 @@ Proxy model only: char bigram, 5 seeds, 2 epochs, public-domain book paragraphs,
 
 ## Claim scope
 
-In a CPU-local NumPy character-level online softmax bigram LM trained on cached Project Gutenberg paragraphs, readability easy-to-hard ordering did not improve final validation bits per character over random ordering under matched token budgets.
+In a CPU-local NumPy character-level online softmax bigram LM trained on cached Project Gutenberg paragraphs, readability easy-to-hard ordering did not improve final validation bits per character over random ordering under matched sequence-item budgets.
 
 ## Why it stopped
 
@@ -53,7 +53,7 @@ Stop this run as a proxy early falsification; a bounded follow-up should test a 
 - Type: `deepen`
 - Title: Small neural LM readability-curriculum confirmation
 - Success threshold: Easy-to-hard must beat random in at least 4/5 paired seeds and improve mean validation loss by at least 0.5% without worse early-token efficiency.
-- Stop condition: Stop if easy-to-hard fails to beat random in at least 3/5 seeds or if the gain is below 0.2% mean validation loss after matched token budgets.
+- Stop condition: Stop if easy-to-hard fails to beat random in at least 3/5 seeds or if the gain is below 0.2% mean validation loss after matched sequence-item budgets.
 
 ## Evidence references
 

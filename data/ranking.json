@@ -26861,7 +26861,7 @@
       "run_id": "quality-scored-subset-selection-beats-random-at-fixed-token-budget-b9d9652ce49c-20260610T011203070256+0000",
       "score": 98,
       "status": "useful_signal",
-      "title": "Quality-Scored Subset Selection Beats Random at Fixed Token Budget"
+      "title": "Quality-Scored Subset Selection Beats Random at Fixed sequence-item budget"
     },
     {
       "bucket": "top_external_researcher_candidates",
@@ -29561,7 +29561,7 @@
       "run_id": "real-extractor-salient-ledger-under-token-budgets-8d4fb66711-20260527T015702524305+0000",
       "score": 98,
       "status": "useful_signal",
-      "title": "Real-Extractor Salient Ledger Under Token Budgets"
+      "title": "Real-Extractor Salient Ledger under sequence-item budgets"
     },
     {
       "bucket": "top_external_researcher_candidates",
@@ -35897,7 +35897,7 @@
       "run_id": "tiny-mixing-law-sweep-code-text-math-ratios-at-matched-token-budget-aae7035639c1-20260610T152948743614+0000",
       "score": 98,
       "status": "useful_signal",
-      "title": "Tiny mixing-law sweep: code/text/math ratios at matched token budget"
+      "title": "Tiny mixing-law sweep: code/text/math ratios at matched sequence-item budget"
     },
     {
       "bucket": "top_external_researcher_candidates",
@@ -56453,7 +56453,7 @@
       "run_id": "domain-mix-ratio-sweep-for-50m-gpt-2-class-pretraining-under-fixed-token-budget-e150c3f38e92-20260620T214603474197+0000",
       "score": 83,
       "status": "useful_signal",
-      "title": "Domain-mix ratio sweep for 50M GPT-2-class pretraining under fixed token budget"
+      "title": "Domain-mix ratio sweep for 50M GPT-2-class pretraining under fixed sequence-item budget"
     },
     {
       "bucket": "followup_recommended",
@@ -60934,7 +60934,7 @@
       "run_id": "exact-dedup-vs-minhash-dedup-at-fixed-token-budget-for-gpt-2-small-41b919b9bffc-20260619T095642173088+0000",
       "score": 83,
       "status": "useful_signal",
-      "title": "Exact-Dedup vs MinHash Dedup at Fixed Token Budget for GPT-2-Small"
+      "title": "Exact-Dedup vs MinHash Dedup at Fixed sequence-item budget for GPT-2-Small"
     },
     {
       "bucket": "followup_recommended",
@@ -77869,7 +77869,7 @@
       "run_id": "optimal-domain-mix-search-for-tiny-pretraining-under-token-budget-a9bf6454dff9-20260619T092306813339+0000",
       "score": 83,
       "status": "useful_signal",
-      "title": "Optimal Domain-Mix Search for Tiny Pretraining Under Token Budget"
+      "title": "Optimal Domain-Mix Search for Tiny Pretraining Under sequence-item budget"
     },
     {
       "bucket": "followup_recommended",
@@ -81469,7 +81469,7 @@
       "run_id": "quality-filtered-subset-for-tiny-pretraining-on-a-100m-token-budget-9c9a816a96e0-20260610T235656384513+0000",
       "score": 83,
       "status": "useful_signal",
-      "title": "Quality-filtered subset for tiny pretraining on a 100M token budget"
+      "title": "Quality-filtered subset for tiny pretraining on a 100M sequence-item budget"
     },
     {
       "bucket": "followup_recommended",

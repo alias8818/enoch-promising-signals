@@ -52,7 +52,7 @@ Stop this run as no-paper proxy evidence; a bounded follow-up should test exact-
 - Recommended: `true`
 - Type: `deepen`
 - Title: Natural-document LLM summary control for exact-anchor windows
-- Success threshold: Exact-anchor windows beat the best summary control by at least 20 absolute percentage points at two matched token budgets without materially increasing context tokens.
+- Success threshold: Exact-anchor windows beat the best summary control by at least 20 absolute percentage points at two matched sequence-item budgets without materially increasing context tokens.
 - Stop condition: Stop as negative if exact-anchor windows improve by less than 5 absolute percentage points at both budgets or if gains disappear after removing synthetic anchor formatting.
 
 ## Evidence references

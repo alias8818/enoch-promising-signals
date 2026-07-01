@@ -45,7 +45,7 @@ Closed as no-paper useful signal because evidence is synthetic/proxy-scale and i
 
 ## Recommended next action
 
-Run a bounded deepen follow-up on a small real public text corpus with a tiny transformer or GRU baseline, fixed token budgets, and direct memorization/extraction checks before considering any paper claim.
+Run a bounded deepen follow-up on a small real public text corpus with a tiny transformer or GRU baseline, fixed sequence-item budgets, and direct memorization/extraction checks before considering any paper claim.
 
 ## Follow-up
 

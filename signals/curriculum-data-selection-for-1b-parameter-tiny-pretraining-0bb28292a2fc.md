@@ -45,7 +45,7 @@ Proxy early falsification: naive quality/easy-to-hard selection underperformed r
 
 ## Recommended next action
 
-Run a bounded real-corpus small-transformer follow-up that compares random sampling, quality filtering, and duplicate-capped quality-diversity selection at matched token budget.
+Run a bounded real-corpus small-transformer follow-up that compares random sampling, quality filtering, and duplicate-capped quality-diversity selection at matched sequence-item budget.
 
 ## Follow-up
 

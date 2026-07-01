@@ -45,7 +45,7 @@ No-paper closure: synthetic evidence is mixed and contradicts the broad hypothes
 
 ## Recommended next action
 
-Run a bounded real-agent replay follow-up that tests adaptive routing between compact procedures and flat episodes on natural task traces under matched token budgets.
+Run a bounded real-agent replay follow-up that tests adaptive routing between compact procedures and flat episodes on natural task traces under matched sequence-item budgets.
 
 ## Follow-up
 
@@ -53,7 +53,7 @@ Run a bounded real-agent replay follow-up that tests adaptive routing between co
 - Type: `deepen`
 - Title: Adaptive Tiered-vs-Flat Memory Routing on Real Agent Task Replays
 - Success threshold: Adaptive routing improves token cost by at least 20% at no more than 2 percentage points task-success loss versus flat-only retrieval, or improves task success at equal token budget, across at least 3 task families.
-- Stop condition: Stop if adaptive routing fails to beat flat-only retrieval on either token cost at matched success or success at matched token budget in two representative task families.
+- Stop condition: Stop if adaptive routing fails to beat flat-only retrieval on either token cost at matched success or success at matched sequence-item budget in two representative task families.
 
 ## Evidence references
 

@@ -45,7 +45,7 @@ This run produced a useful synthetic proxy signal, but it is not direct/full-sca
 
 ## Recommended next action
 
-Run a bounded real-corpus follow-up using a GPT-2-small-class tokenizer/model, fixed token budgets, repeated seeds, and a held-out target-domain validation set before considering any paper claim.
+Run a bounded real-corpus follow-up using a GPT-2-small-class tokenizer/model, fixed sequence-item budgets, repeated seeds, and a held-out target-domain validation set before considering any paper claim.
 
 ## Follow-up
 

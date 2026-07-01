@@ -52,7 +52,7 @@ Stop this run as a no-paper useful signal; next run should repeat the same four-
 - Recommended: `true`
 - Type: `deepen`
 - Title: Real-corpus quality filtering for tokenizer-level tiny pretraining
-- Success threshold: Quality-top improves clean held-out loss by at least 5% relative to random at matched token budget without catastrophic degradation on the noisy/domain-shifted validation set, and quality-bottom is worse than random on clean loss.
+- Success threshold: Quality-top improves clean held-out loss by at least 5% relative to random at matched sequence-item budget without catastrophic degradation on the noisy/domain-shifted validation set, and quality-bottom is worse than random on clean loss.
 - Stop condition: Stop if quality-top fails to improve clean held-out loss versus random in two independent seeds, or if gains vanish after matching token count and document length distributions.
 
 ## Evidence references

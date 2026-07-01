@@ -45,7 +45,7 @@ No-paper useful signal from a synthetic proxy: trace-derived compression is supp
 
 ## Recommended next action
 
-Run a bounded deepen follow-up with mixed query types where some held-out questions require recent exact trace events and others require older compressed facts; stop if layering still fails to beat summary-only at matched token budgets.
+Run a bounded deepen follow-up with mixed query types where some held-out questions require recent exact trace events and others require older compressed facts; stop if layering still fails to beat summary-only at matched sequence-item budgets.
 
 ## Follow-up
 

@@ -51,7 +51,7 @@ Stop this run as a bounded no-paper negative for strict sorted easy-to-hard; nex
 
 - Recommended: `true`
 - Type: `deepen`
-- Title: Interleaved Easy-to-Hard Curriculum Under Fixed Token Budgets
+- Title: Interleaved Easy-to-Hard Curriculum Under fixed sequence-item budgets
 - Success threshold: Interleaved curriculum beats random on hard exact accuracy in at least 4 of 5 paired seeds and improves mean hard exact accuracy by at least 5 percentage points without increasing total input tokens.
 - Stop condition: Stop if interleaved curriculum has fewer than 3 paired wins out of 5 or hard exact accuracy remains near floor for both curriculum and random after the calibrated budget.
 

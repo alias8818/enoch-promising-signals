@@ -52,8 +52,8 @@ Stop this run as a no-paper useful signal; the concrete next bounded test is a l
 - Recommended: `true`
 - Type: `deepen`
 - Title: Local-SGD Quality Threshold for Volunteer Tiny-GPT Pretraining
-- Success threshold: At least one local-SGD interval that is communication-efficient at 20 Mbps must stay within 5% validation loss of the serial baseline at matched token budget while improving simulated wall-clock throughput by at least 2x.
-- Stop condition: Stop if all communication-efficient intervals exceed 5% validation-loss degradation or fail to improve simulated wall-clock throughput by 2x at matched token budget.
+- Success threshold: At least one local-SGD interval that is communication-efficient at 20 Mbps must stay within 5% validation loss of the serial baseline at matched sequence-item budget while improving simulated wall-clock throughput by at least 2x.
+- Stop condition: Stop if all communication-efficient intervals exceed 5% validation-loss degradation or fail to improve simulated wall-clock throughput by 2x at matched sequence-item budget.
 
 ## Evidence references
 

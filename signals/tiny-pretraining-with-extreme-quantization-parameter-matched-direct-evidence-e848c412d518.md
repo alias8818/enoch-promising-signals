@@ -53,7 +53,7 @@ Stop this exact claim as an early negative; a bounded follow-up should test a GP
 - Type: `deepen`
 - Title: Parameter-matched low-bit pretraining in a small transformer
 - Success threshold: Ternary or binary mean validation loss within 10% of dense across at least 3 seeds while preserving nontrivial learning from initialization.
-- Stop condition: Stop if the best quantized transformer variant remains more than 10% worse than dense after the matched token budget or shows unstable/non-monotonic learning in at least 2 of 3 seeds.
+- Stop condition: Stop if the best quantized transformer variant remains more than 10% worse than dense after the matched sequence-item budget or shows unstable/non-monotonic learning in at least 2 of 3 seeds.
 
 ## Evidence references
 

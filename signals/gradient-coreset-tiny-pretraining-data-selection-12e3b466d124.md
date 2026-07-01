@@ -29,7 +29,7 @@ Reasons:
 
 ## What looked useful
 
-Gradient k-center lost to random on all five seeds, with mean validation loss 1.8737 versus 1.8230 for random and mean token accuracy 0.5310 versus 0.5433. It also oversampled rarer synthetic domains, suggesting naive gradient-space diversity can discard useful majority-domain mass under fixed token budgets.
+Gradient k-center lost to random on all five seeds, with mean validation loss 1.8737 versus 1.8230 for random and mean token accuracy 0.5310 versus 0.5433. It also oversampled rarer synthetic domains, suggesting naive gradient-space diversity can discard useful majority-domain mass under fixed sequence-item budgets.
 
 ## Boundaries and scale limits
 

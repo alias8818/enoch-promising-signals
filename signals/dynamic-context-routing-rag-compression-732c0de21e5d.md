@@ -45,7 +45,7 @@ Local synthetic evidence is useful but not paper-positive because the routed met
 
 ## Recommended next action
 
-Run a bounded public QA/RAG follow-up comparing metadata/query-aware routing against a strong uniform query-field compressor at matched token budgets before considering paper work.
+Run a bounded public QA/RAG follow-up comparing metadata/query-aware routing against a strong uniform query-field compressor at matched sequence-item budgets before considering paper work.
 
 ## Follow-up
 

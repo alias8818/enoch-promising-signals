@@ -53,7 +53,7 @@ Stop this run as no-paper useful signal; run a bounded follow-up on a tiny trans
 - Type: `deepen`
 - Title: Tiny transformer validation of short-window reconstructed Adam
 - Success threshold: K=1 or K=2 reconstructed Adam reaches validation loss within 5% of AdamW at equal tokens while reducing persistent optimizer state by at least 50% and losing no more than 15% throughput.
-- Stop condition: Stop if reconstructed variants are more than 10% worse in validation loss after the matched token budget, become unstable in two or more seeds, or memory savings are not observable in direct RSS/allocator telemetry.
+- Stop condition: Stop if reconstructed variants are more than 10% worse in validation loss after the matched sequence-item budget, become unstable in two or more seeds, or memory savings are not observable in direct RSS/allocator telemetry.
 
 ## Evidence references
 

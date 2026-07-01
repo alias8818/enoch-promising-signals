@@ -45,7 +45,7 @@ Synthetic proxy produced no-paper useful evidence: simple repeated task compress
 
 ## Recommended next action
 
-Stop this run as a proxy early falsification; any next run should test a causal or LLM-in-the-loop doctrine compressor on real agent traces with retrieval and global-compression controls under matched token budgets.
+Stop this run as a proxy early falsification; any next run should test a causal or LLM-in-the-loop doctrine compressor on real agent traces with retrieval and global-compression controls under matched sequence-item budgets.
 
 ## Follow-up
 

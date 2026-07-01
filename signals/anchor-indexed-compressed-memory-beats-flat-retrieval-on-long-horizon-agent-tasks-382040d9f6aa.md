@@ -45,7 +45,7 @@ No-paper useful signal: local synthetic evidence supports a narrow mechanism but
 
 ## Recommended next action
 
-Run a bounded direct LLM-agent trace benchmark with online/noisy anchor creation, generated summaries under a fixed token budget, and strong flat, metadata-filtered, and hierarchical retrieval baselines.
+Run a bounded direct LLM-agent trace benchmark with online/noisy anchor creation, generated summaries under a fixed sequence-item budget, and strong flat, metadata-filtered, and hierarchical retrieval baselines.
 
 ## Follow-up
 

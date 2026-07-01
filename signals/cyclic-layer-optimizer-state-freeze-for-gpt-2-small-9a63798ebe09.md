@@ -45,7 +45,7 @@ Proxy-scale useful signal only; synthetic short-run evidence is insufficient for
 
 ## Recommended next action
 
-Run a bounded real-corpus deepen test on GPT-2-small geometry for a few thousand steps comparing cyclic freeze, cyclic zero-decay, dense AdamW, and momentum-reset variants under matched token budgets.
+Run a bounded real-corpus deepen test on GPT-2-small geometry for a few thousand steps comparing cyclic freeze, cyclic zero-decay, dense AdamW, and momentum-reset variants under matched sequence-item budgets.
 
 ## Follow-up
 

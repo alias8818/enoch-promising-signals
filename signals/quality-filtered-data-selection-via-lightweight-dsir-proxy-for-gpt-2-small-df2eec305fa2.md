@@ -45,14 +45,14 @@ Closed as no-paper useful signal because the evidence is synthetic/proxy-only an
 
 ## Recommended next action
 
-Run a bounded real-data deepen test: apply random, quality-only, DSIR-only, and DSIR-plus-quality selection to a small public text mixture, then continue-pretrain GPT-2-small or a small matched causal LM for a fixed token budget and compare validation loss.
+Run a bounded real-data deepen test: apply random, quality-only, DSIR-only, and DSIR-plus-quality selection to a small public text mixture, then continue-pretrain GPT-2-small or a small matched causal LM for a fixed sequence-item budget and compare validation loss.
 
 ## Follow-up
 
 - Recommended: `true`
 - Type: `deepen`
 - Title: Real-corpus GPT-2-small DSIR-plus-quality selection probe
-- Success threshold: DSIR-plus-quality must reduce held-out validation loss versus random and DSIR-only by at least 3% at matched token budget without higher repetition/spam diagnostics.
+- Success threshold: DSIR-plus-quality must reduce held-out validation loss versus random and DSIR-only by at least 3% at matched sequence-item budget without higher repetition/spam diagnostics.
 - Stop condition: Stop if DSIR-plus-quality fails to beat random or DSIR-only on validation loss, or if preprocessing/model runtime exceeds the bounded local budget without checkpointed evidence.
 
 ## Evidence references

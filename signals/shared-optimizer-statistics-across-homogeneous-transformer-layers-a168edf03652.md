@@ -52,7 +52,7 @@ Run a bounded real-text nanoGPT/GPT-2-small-class deepen test for the shared_v v
 - Recommended: `true`
 - Type: `deepen`
 - Title: Real-text validation of depth-shared AdamW second moments
-- Success threshold: shared_v final validation loss within 2% of AdamW at matched token budget with at least 30% optimizer-state element reduction and no training instability.
+- Success threshold: shared_v final validation loss within 2% of AdamW at matched sequence-item budget with at least 30% optimizer-state element reduction and no training instability.
 - Stop condition: Stop if shared_v exceeds AdamW validation loss by more than 2% on two independent seeds or fails to deliver at least 30% optimizer-state reduction in the real-text setup.
 
 ## Evidence references

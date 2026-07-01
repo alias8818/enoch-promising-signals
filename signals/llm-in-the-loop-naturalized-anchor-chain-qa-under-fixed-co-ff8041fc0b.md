@@ -46,13 +46,13 @@ Tier 1 evidence supports the anchor-chain retrieval mechanism but not the full L
 
 ## Recommended next action
 
-Run a bounded direct follow-up where a small local instruct or QA model performs anchor extraction and final answer generation on 100-200 generated cases under the same fixed token budget, with one-shot retrieval as the control.
+Run a bounded direct follow-up where a small local instruct or QA model performs anchor extraction and final answer generation on 100-200 generated cases under the same fixed sequence-item budget, with one-shot retrieval as the control.
 
 ## Follow-up
 
 - Recommended: `true`
 - Type: `deepen`
-- Title: Small-model LLM-in-the-loop anchor-chain QA under fixed token budgets
+- Title: Small-model LLM-in-the-loop anchor-chain QA under fixed sequence-item budgets
 - Success threshold: At least 80% exact-answer accuracy for the anchor-chain method and at least 30 percentage points improvement over one-shot retrieval on 100-200 cases, with per-hop anchor extraction accuracy at least 90%.
 - Stop condition: Stop if anchor extraction falls below 70% on a 30-case smoke test or if anchor-chain exact accuracy is not at least 15 percentage points above one-shot in the first 100 cases.
 

@@ -45,7 +45,7 @@ Closed as no-paper useful signal: the evidence is reproducible and direct for th
 
 ## Recommended next action
 
-Run a bounded direct follow-up on a small real-token corpus with a GPT-2-small-class or parameter-matched model, comparing block order, minibatch interleaving, and replay while measuring phase retention at matched token budgets.
+Run a bounded direct follow-up on a small real-token corpus with a GPT-2-small-class or parameter-matched model, comparing block order, minibatch interleaving, and replay while measuring phase retention at matched sequence-item budgets.
 
 ## Follow-up
 

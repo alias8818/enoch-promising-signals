@@ -52,7 +52,7 @@ Stop this worker run as a proxy early falsification; next bounded test should us
 - Recommended: `true`
 - Type: `deepen`
 - Title: Production 8-bit Adam on a Tiny GPT-2 Transformer
-- Success threshold: After a fixed token budget, 8-bit Adam validation loss is within 2% of FP32 AdamW in mean over seeds, no seed diverges, and optimizer-state memory is reduced by at least 65%.
+- Success threshold: After a fixed sequence-item budget, 8-bit Adam validation loss is within 2% of FP32 AdamW in mean over seeds, no seed diverges, and optimizer-state memory is reduced by at least 65%.
 - Stop condition: Stop if any 8-bit run diverges before 25% of the token budget or mean validation loss is more than 10% worse than FP32 AdamW at the midpoint checkpoint.
 
 ## Evidence references

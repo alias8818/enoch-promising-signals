@@ -1,4 +1,4 @@
-# Real-Extractor Salient Ledger Under Token Budgets
+# Real-Extractor Salient Ledger under sequence-item budgets
 
 Status: `useful_signal`
 Curation bucket: `top_external_researcher_candidates`

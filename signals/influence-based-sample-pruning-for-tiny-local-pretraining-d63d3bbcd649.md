@@ -52,7 +52,7 @@ Run a bounded real-text deepen test using the same equal-token-budget protocol o
 - Recommended: `true`
 - Type: `deepen`
 - Title: Real-text equal-budget validation of influence-based pruning for tiny local pretraining
-- Success threshold: Influence-top improves mean target test loss by at least 5% relative to random-pruned and loss-low baselines at matched token budget in both keep fractions, with no catastrophic degradation relative to full-pool training.
+- Success threshold: Influence-top improves mean target test loss by at least 5% relative to random-pruned and loss-low baselines at matched sequence-item budget in both keep fractions, with no catastrophic degradation relative to full-pool training.
 - Stop condition: Stop if influence-top fails to beat random-pruned or loss-low in either keep fraction, or if scoring overhead exceeds the saved training time by more than 2x for the tiny setup.
 
 ## Evidence references

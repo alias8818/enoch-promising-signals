@@ -52,7 +52,7 @@ Stop this run as no-paper useful signal; a bounded deepen follow-up should repea
 - Recommended: `true`
 - Type: `deepen`
 - Title: GPT-2-small-class real-data 8-bit AdamW peak-memory and convergence ablation
-- Success threshold: AdamW8bit reaches within 2% of AdamW32 validation loss over the fixed token budget while reducing optimizer-state memory by at least 65% and documenting total peak VRAM savings for each batch setting.
+- Success threshold: AdamW8bit reaches within 2% of AdamW32 validation loss over the fixed sequence-item budget while reducing optimizer-state memory by at least 65% and documenting total peak VRAM savings for each batch setting.
 - Stop condition: Stop if AdamW8bit fails to run correctly on the target workload, diverges relative to AdamW32, or total peak VRAM savings remain below 5% in all tested realistic settings.
 
 ## Evidence references

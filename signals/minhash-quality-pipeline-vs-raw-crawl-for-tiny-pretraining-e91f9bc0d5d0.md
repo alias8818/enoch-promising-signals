@@ -45,7 +45,7 @@ This run is a useful proxy/mechanism result, not a full validation or paper-read
 
 ## Recommended next action
 
-Run a bounded direct-evidence follow-up using a real crawl slice and a small neural LM with raw, quality-only, MinHash-only, and combined-pipeline ablations under matched token budgets.
+Run a bounded direct-evidence follow-up using a real crawl slice and a small neural LM with raw, quality-only, MinHash-only, and combined-pipeline ablations under matched sequence-item budgets.
 
 ## Follow-up
 

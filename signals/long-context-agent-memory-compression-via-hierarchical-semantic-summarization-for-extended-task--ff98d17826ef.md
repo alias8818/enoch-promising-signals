@@ -52,7 +52,7 @@ Run a bounded real-transcript follow-up using actual long agent sessions, LLM-ge
 - Recommended: `true`
 - Type: `deepen`
 - Title: Real-transcript evaluation of hierarchical agent memory compression
-- Success threshold: At matched token budget, hierarchical plus recent-tier memory improves old-fact accuracy by at least 20 percentage points over flat recency while keeping overall accuracy within 5 percentage points of the best flat baseline across at least 3 independent transcript sets.
+- Success threshold: At matched sequence-item budget, hierarchical plus recent-tier memory improves old-fact accuracy by at least 20 percentage points over flat recency while keeping overall accuracy within 5 percentage points of the best flat baseline across at least 3 independent transcript sets.
 - Stop condition: Stop if real LLM summaries fail to preserve structured facts above the flat salience baseline, or if old-fact gains require more than a 10 percentage point loss in overall accuracy after adding a recent working-memory tier.
 
 ## Evidence references

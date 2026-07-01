@@ -37,7 +37,7 @@ Synthetic template corpora only; character tokenizer only; 300 training steps pe
 
 ## Claim scope
 
-In a synthetic tiny mixed-domain pretraining sweep with a 354,578-parameter character-level causal Transformer, fixed token budget, 5 code/NLP sampling ratios, and 2 seeds, a 50% code mixture gave the best unweighted mean of held-out synthetic code and NLP losses, while single-domain extremes won only their matching domain.
+In a synthetic tiny mixed-domain pretraining sweep with a 354,578-parameter character-level causal Transformer, fixed sequence-item budget, 5 code/NLP sampling ratios, and 2 seeds, a 50% code mixture gave the best unweighted mean of held-out synthetic code and NLP losses, while single-domain extremes won only their matching domain.
 
 ## Why it stopped
 
@@ -45,7 +45,7 @@ Proxy-only synthetic evidence supports the mechanism but does not provide public
 
 ## Recommended next action
 
-Stop this run as no-paper useful signal; next bounded test should replace synthetic templates with small real code and NLP corpora while keeping the same ratio sweep and fixed token budget.
+Stop this run as no-paper useful signal; next bounded test should replace synthetic templates with small real code and NLP corpora while keeping the same ratio sweep and fixed sequence-item budget.
 
 ## Follow-up
 

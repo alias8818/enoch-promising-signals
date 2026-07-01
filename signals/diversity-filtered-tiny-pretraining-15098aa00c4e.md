@@ -45,7 +45,7 @@ No-paper closure: this is a useful but mixed proxy result, not a direct neural p
 
 ## Recommended next action
 
-Run a bounded neural follow-up with a tiny transformer on the same redundant and balanced pools, comparing random, dedup-only, and diversity-greedy selection at matched token budgets.
+Run a bounded neural follow-up with a tiny transformer on the same redundant and balanced pools, comparing random, dedup-only, and diversity-greedy selection at matched sequence-item budgets.
 
 ## Follow-up
 

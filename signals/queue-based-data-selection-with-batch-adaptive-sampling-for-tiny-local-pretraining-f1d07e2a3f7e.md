@@ -52,7 +52,7 @@ Run a bounded deepen follow-up on a small real corpus with clean/noisy source me
 - Recommended: `true`
 - Type: `deepen`
 - Title: Real-corpus metadata-limited QBAS for tiny causal-LM pretraining
-- Success threshold: QBAS improves clean validation loss by at least 10% relative to uniform and does not increase noisy-source exposure above uniform after matched token budget.
+- Success threshold: QBAS improves clean validation loss by at least 10% relative to uniform and does not increase noisy-source exposure above uniform after matched sequence-item budget.
 - Stop condition: Stop if QBAS fails to beat uniform on mean clean validation loss across 3 seeds or if gains require explicit labels unavailable in the target deployment.
 
 ## Evidence references

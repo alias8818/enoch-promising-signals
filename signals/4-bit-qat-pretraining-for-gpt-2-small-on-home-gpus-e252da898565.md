@@ -45,7 +45,7 @@ Closed as no-paper useful signal because the evidence is short, synthetic, and f
 
 ## Recommended next action
 
-Run a bounded real-corpus GPT-2-small follow-up comparing baseline, W4 projection QAT, and W4A4 QAT on validation perplexity over a fixed token budget before considering any paper claim.
+Run a bounded real-corpus GPT-2-small follow-up comparing baseline, W4 projection QAT, and W4A4 QAT on validation perplexity over a fixed sequence-item budget before considering any paper claim.
 
 ## Follow-up
 

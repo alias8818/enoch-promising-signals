@@ -45,7 +45,7 @@ Closed as no-paper useful signal because the local evidence is synthetic/proxy-s
 
 ## Recommended next action
 
-Run a bounded direct follow-up on a real small text corpus with a transformer-class tiny LM, paired seeds, matched token budget, and both production-matched and rare-balanced validation splits.
+Run a bounded direct follow-up on a real small text corpus with a transformer-class tiny LM, paired seeds, matched sequence-item budget, and both production-matched and rare-balanced validation splits.
 
 ## Follow-up
 

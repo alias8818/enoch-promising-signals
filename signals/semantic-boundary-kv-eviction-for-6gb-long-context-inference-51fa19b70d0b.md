@@ -37,7 +37,7 @@ No real LLM serving, tokenizer, attention implementation, paged KV runtime, deco
 
 ## Claim scope
 
-Synthetic 65,536-token segmented KV-retention probe with 512 retrieval-style queries and 4,096-16,384 retained-token budgets; semantic-boundary retention preserved synthetic fact anchors better than sliding-window retention under matched token budgets.
+Synthetic 65,536-token segmented KV-retention probe with 512 retrieval-style queries and 4,096-16,384 retained-token budgets; semantic-boundary retention preserved synthetic fact anchors better than sliding-window retention under matched sequence-item budgets.
 
 ## Why it stopped
 

@@ -37,7 +37,7 @@ Synthetic corpus, five seeds, tiny n-gram neural LM, no transformer, no real web
 
 ## Claim scope
 
-In a controlled synthetic mixed-domain corpus, cheap lexical similarity selection improved target-validation NLL for the same fixed token budget and tiny NumPy neural n-gram LM.
+In a controlled synthetic mixed-domain corpus, cheap lexical similarity selection improved target-validation NLL for the same fixed sequence-item budget and tiny NumPy neural n-gram LM.
 
 ## Why it stopped
 

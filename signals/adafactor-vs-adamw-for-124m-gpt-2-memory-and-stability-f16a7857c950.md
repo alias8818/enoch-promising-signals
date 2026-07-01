@@ -52,7 +52,7 @@ Stop this run as no-paper useful signal; deepen with a bounded natural-language 
 - Recommended: `true`
 - Type: `deepen`
 - Title: Natural-language 124M GPT-2 Adafactor vs AdamW bounded stability check
-- Success threshold: Adafactor completes the bounded corpus run without non-finite events, keeps validation perplexity within 5% of the best AdamW run at matched token budget, and retains at least 500 MiB lower peak CUDA allocation for the 124M model.
+- Success threshold: Adafactor completes the bounded corpus run without non-finite events, keeps validation perplexity within 5% of the best AdamW run at matched sequence-item budget, and retains at least 500 MiB lower peak CUDA allocation for the 124M model.
 - Stop condition: Stop if Adafactor has repeated non-finite loss/gradients, validation perplexity is more than 10% worse than AdamW after matched tuning, or the memory advantage disappears under the chosen training stack.
 
 ## Evidence references

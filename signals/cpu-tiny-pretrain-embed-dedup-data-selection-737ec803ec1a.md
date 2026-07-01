@@ -29,7 +29,7 @@ Reasons:
 
 ## What looked useful
 
-Character-matched held-out bits-per-character was best for embed_relevance_dedup at 0.829261 mean, versus random 0.936005, exact_dedup 0.921507, embed_near_dedup 0.896871, and embed_relevance_only 0.846122. The result supports testing relevance plus near-dedup under matched token budgets, while the document-budget ablation shows relevance-only can look better when duplicate-heavy target text increases effective train characters.
+Character-matched held-out bits-per-character was best for embed_relevance_dedup at 0.829261 mean, versus random 0.936005, exact_dedup 0.921507, embed_near_dedup 0.896871, and embed_relevance_only 0.846122. The result supports testing relevance plus near-dedup under matched sequence-item budgets, while the document-budget ablation shows relevance-only can look better when duplicate-heavy target text increases effective train characters.
 
 ## Boundaries and scale limits
 
@@ -45,14 +45,14 @@ Synthetic/proxy evidence is useful but insufficient for publication-grade valida
 
 ## Recommended next action
 
-Run a bounded real-corpus deepen test with matched token budgets, neural or production embeddings, a cosine-threshold sweep, and a tiny transformer validation-loss endpoint before considering any paper claim.
+Run a bounded real-corpus deepen test with matched sequence-item budgets, neural or production embeddings, a cosine-threshold sweep, and a tiny transformer validation-loss endpoint before considering any paper claim.
 
 ## Follow-up
 
 - Recommended: `true`
 - Type: `deepen`
 - Title: Real-corpus matched-token embed-dedup data selection probe
-- Success threshold: Relevance-plus-near-dedup achieves at least 3% lower mean token-level validation loss than both relevance-only and exact-dedup at matched token budget, with the effect present in at least 2 of 3 seeds.
+- Success threshold: Relevance-plus-near-dedup achieves at least 3% lower mean token-level validation loss than both relevance-only and exact-dedup at matched sequence-item budget, with the effect present in at least 2 of 3 seeds.
 - Stop condition: Stop as negative if relevance-plus-near-dedup fails to beat relevance-only or exact-dedup by 1% mean validation loss after 3 seeds, or if gains disappear across reasonable dedup thresholds.
 
 ## Evidence references

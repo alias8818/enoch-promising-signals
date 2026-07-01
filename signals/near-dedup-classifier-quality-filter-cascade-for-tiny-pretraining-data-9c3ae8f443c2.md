@@ -45,7 +45,7 @@ Closed as no-paper useful signal because the evidence is synthetic/proxy-only an
 
 ## Recommended next action
 
-Run a bounded deepen follow-up on a small real public text corpus using a tiny neural LM, with the same classifier-only, dedup-only, dedup_then_classifier, and classifier_then_dedup ablations at fixed token budget.
+Run a bounded deepen follow-up on a small real public text corpus using a tiny neural LM, with the same classifier-only, dedup-only, dedup_then_classifier, and classifier_then_dedup ablations at fixed sequence-item budget.
 
 ## Follow-up
 

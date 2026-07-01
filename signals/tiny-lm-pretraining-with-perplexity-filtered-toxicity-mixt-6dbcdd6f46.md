@@ -46,7 +46,7 @@ Tier 1 controlled small direct test completed; evidence is mixed but useful, wit
 
 ## Recommended next action
 
-Run a bounded real-corpus small-transformer deepen test with matched token budgets, real clean/toxic splits, a reference-LM perplexity filter, toxicity generation metrics, and at least three seeds; do not write a paper from this synthetic tiny-LM result alone.
+Run a bounded real-corpus small-transformer deepen test with matched sequence-item budgets, real clean/toxic splits, a reference-LM perplexity filter, toxicity generation metrics, and at least three seeds; do not write a paper from this synthetic tiny-LM result alone.
 
 ## Follow-up
 

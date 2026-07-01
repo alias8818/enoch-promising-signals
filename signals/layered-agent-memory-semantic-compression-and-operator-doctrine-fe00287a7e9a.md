@@ -52,7 +52,7 @@ Run a bounded deepen follow-up in a real agent-harness trace replay with LLM sum
 - Recommended: `true`
 - Type: `deepen`
 - Title: Replay Layered Memory Compression on Real Agent Traces
-- Success threshold: At matched token budget, layered memory achieves at least 20% relative reduction in doctrine violations versus the strongest baseline while keeping task success within 2 percentage points of that baseline across at least 100 replayed tasks.
+- Success threshold: At matched sequence-item budget, layered memory achieves at least 20% relative reduction in doctrine violations versus the strongest baseline while keeping task success within 2 percentage points of that baseline across at least 100 replayed tasks.
 - Stop condition: Stop if layered memory fails to reduce doctrine violations versus the strongest baseline or reduces task success by more than 2 percentage points in two independent trace slices.
 
 ## Evidence references

@@ -45,7 +45,7 @@ This run produced a useful synthetic mechanism signal but not direct real-agent 
 
 ## Recommended next action
 
-Run a bounded follow-up on a small real agent trace corpus where agent-written doctrine and anchor memories feed an LLM answerer under matched token budgets.
+Run a bounded follow-up on a small real agent trace corpus where agent-written doctrine and anchor memories feed an LLM answerer under matched sequence-item budgets.
 
 ## Follow-up
 

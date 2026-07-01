@@ -53,7 +53,7 @@ Stop this run as no-paper useful signal; a bounded deepen follow-up should test 
 - Type: `deepen`
 - Title: Tuned EF 1-bit compression on GPT-2-small-class BPE language modeling
 - Success threshold: EF mean-scaled signSGD should reduce validation loss versus no-EF mean-scaled signSGD by at least 0.05 or close at least half of the gap to AdamW without instability at the same token budget.
-- Stop condition: Stop if EF remains within 0.02 validation loss of no-EF mean-scaled signSGD across calibrated settings or remains more than 0.15 validation loss worse than AdamW after matched token budgets.
+- Stop condition: Stop if EF remains within 0.02 validation loss of no-EF mean-scaled signSGD across calibrated settings or remains more than 0.15 validation loss worse than AdamW after matched sequence-item budgets.
 
 ## Evidence references
 

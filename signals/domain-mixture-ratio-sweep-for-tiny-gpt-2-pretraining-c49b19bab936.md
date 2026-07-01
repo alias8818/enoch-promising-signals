@@ -37,7 +37,7 @@ Synthetic domains only; 2-layer 96-wide decoder, 22.1M total training tokens acr
 
 ## Claim scope
 
-In a synthetic two-domain tiny GPT-2-style causal LM pretraining sweep with fixed token budget, the domain mixture ratio materially changed per-domain and balanced held-out loss; a 50/50 mix gave the best balanced validation loss among ratios [0, 0.25, 0.5, 0.75, 1] across 3 seeds.
+In a synthetic two-domain tiny GPT-2-style causal LM pretraining sweep with fixed sequence-item budget, the domain mixture ratio materially changed per-domain and balanced held-out loss; a 50/50 mix gave the best balanced validation loss among ratios [0, 0.25, 0.5, 0.75, 1] across 3 seeds.
 
 ## Why it stopped
 

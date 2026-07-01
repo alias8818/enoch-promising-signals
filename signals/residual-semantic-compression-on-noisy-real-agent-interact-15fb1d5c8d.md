@@ -38,7 +38,7 @@ No real private production traces, no LLM semantic extractor, no human-labeled u
 
 ## Claim scope
 
-Tier-1 controlled generated repeated-agent traces with explicit project/key/value/revision facts, injected distractor events, stale values, redundant chatter, and redacted private-noise tokens under fixed token budgets.
+Tier-1 controlled generated repeated-agent traces with explicit project/key/value/revision facts, injected distractor events, stale values, redundant chatter, and redacted private-noise tokens under fixed sequence-item budgets.
 
 ## Why it stopped
 

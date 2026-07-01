@@ -52,7 +52,7 @@ Run a bounded deepen follow-up on real saved agent transcripts or a small live L
 - Recommended: `true`
 - Type: `deepen`
 - Title: Compressed Ledger Memory on Real Agent Resume Traces
-- Success threshold: At least 15 percentage points higher state/provenance accuracy than both baselines at matched token budgets, no worse than 5% absolute task-resume success regression, and p95 memory-query latency under 50 ms on the local workload.
+- Success threshold: At least 15 percentage points higher state/provenance accuracy than both baselines at matched sequence-item budgets, no worse than 5% absolute task-resume success regression, and p95 memory-query latency under 50 ms on the local workload.
 - Stop condition: Stop as negative if structured extraction errors or ledger overhead prevent exceeding both baselines by at least 5 percentage points on state/provenance accuracy after 100 labeled resume queries.
 
 ## Evidence references

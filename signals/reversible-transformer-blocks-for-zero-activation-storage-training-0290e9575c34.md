@@ -52,7 +52,7 @@ Run a bounded GPT-2-small-class real-data comparison against activation checkpoi
 - Recommended: `true`
 - Type: `deepen`
 - Title: GPT-2-small-class reversible block memory and stability comparison
-- Success threshold: Custom reversible training matches the standard reversible loss within 2% at the fixed token budget, reduces peak CUDA memory by at least 30% versus ordinary reversible autograd, and avoids NaN/Inf gradients under the chosen precision.
+- Success threshold: Custom reversible training matches the standard reversible loss within 2% at the fixed sequence-item budget, reduces peak CUDA memory by at least 30% versus ordinary reversible autograd, and avoids NaN/Inf gradients under the chosen precision.
 - Stop condition: Stop if loss diverges, gradients become non-finite, memory reduction is below 15% after instrumentation is verified, or the run would exceed the local bounded budget without producing partial metrics.
 
 ## Evidence references

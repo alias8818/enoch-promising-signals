@@ -45,7 +45,7 @@ This run produced useful synthetic mechanism evidence, but it is proxy-only and 
 
 ## Recommended next action
 
-Run a bounded direct follow-up where both doctrine memory and fact recall are extracted from the same noisy natural-language operator traces and consumed by an LLM or agent under a fixed token budget.
+Run a bounded direct follow-up where both doctrine memory and fact recall are extracted from the same noisy natural-language operator traces and consumed by an LLM or agent under a fixed sequence-item budget.
 
 ## Follow-up
 

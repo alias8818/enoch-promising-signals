@@ -45,7 +45,7 @@ Closed as no-paper useful signal because the evidence supports the mechanism onl
 
 ## Recommended next action
 
-Run a bounded real-corpus confirmation using a held-out target domain and fixed token budget before considering any paper claim.
+Run a bounded real-corpus confirmation using a held-out target domain and fixed sequence-item budget before considering any paper claim.
 
 ## Follow-up
 

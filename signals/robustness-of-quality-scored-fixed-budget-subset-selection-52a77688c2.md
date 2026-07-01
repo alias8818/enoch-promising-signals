@@ -25,7 +25,7 @@ Reasons:
 
 ## Source
 
-- Parent run decision: Quality-Scored Subset Selection Beats Random at Fixed Token Budget: enoch://control-plane/projects/quality-scored-subset-selection-beats-random-at-fixed-token-budget-b9d9652ce49c/runs/quality-scored-subset-selection-beats-random-at-fixed-token-budget-b9d9652ce49c-20260610T011203070256+0000
+- Parent run decision: Quality-Scored Subset Selection Beats Random at fixed sequence-item budget: enoch://control-plane/projects/quality-scored-subset-selection-beats-random-at-fixed-token-budget-b9d9652ce49c/runs/quality-scored-subset-selection-beats-random-at-fixed-token-budget-b9d9652ce49c-20260610T011203070256+0000
 - Provider-backed Research Facility batch: minimax/minimax-m3: enoch://research-facility/provider/minimax/minimax-m3/6e1da85b33ea
 
 ## What looked useful

@@ -45,7 +45,7 @@ No-paper useful signal: the local evidence supports the contamination-filtering 
 
 ## Recommended next action
 
-Run a bounded real-off-domain follow-up with a small transformer and matched token budgets before considering any paper claim.
+Run a bounded real-off-domain follow-up with a small transformer and matched sequence-item budgets before considering any paper claim.
 
 ## Follow-up
 

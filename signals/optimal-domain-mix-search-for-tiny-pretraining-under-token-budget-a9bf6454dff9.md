@@ -1,4 +1,4 @@
-# Optimal Domain-Mix Search for Tiny Pretraining Under Token Budget
+# Optimal Domain-Mix Search for Tiny Pretraining under sequence-item budget
 
 Status: `useful_signal`
 Curation bucket: `followup_recommended`

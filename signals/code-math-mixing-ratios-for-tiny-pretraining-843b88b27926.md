@@ -45,7 +45,7 @@ Closed as no-paper useful signal because the evidence is a synthetic n-gram prox
 
 ## Recommended next action
 
-Run a bounded tiny-transformer follow-up on real code/math/prose corpora with the same ratio grid, matched token budget, at least 3 seeds, and held-out code/math/prose perplexity plus small downstream probes.
+Run a bounded tiny-transformer follow-up on real code/math/prose corpora with the same ratio grid, matched sequence-item budget, at least 3 seeds, and held-out code/math/prose perplexity plus small downstream probes.
 
 ## Follow-up
 

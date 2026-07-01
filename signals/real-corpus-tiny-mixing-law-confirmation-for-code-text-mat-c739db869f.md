@@ -25,7 +25,7 @@ Reasons:
 
 ## Source
 
-- Parent run decision: Tiny mixing-law sweep: code/text/math ratios at matched token budget: enoch://control-plane/projects/tiny-mixing-law-sweep-code-text-math-ratios-at-matched-token-budget-aae7035639c1/runs/tiny-mixing-law-sweep-code-text-math-ratios-at-matched-token-budget-aae7035639c1-20260610T152948743614+0000
+- Parent run decision: Tiny mixing-law sweep: code/text/math ratios at matched sequence-item budget: enoch://control-plane/projects/tiny-mixing-law-sweep-code-text-math-ratios-at-matched-token-budget-aae7035639c1/runs/tiny-mixing-law-sweep-code-text-math-ratios-at-matched-token-budget-aae7035639c1-20260610T152948743614+0000
 - Provider-backed Research Facility batch: minimax/minimax-m3: enoch://research-facility/provider/minimax/minimax-m3/6cfd186277af
 
 ## What looked useful

@@ -37,7 +37,7 @@ Synthetic data only; tiny 2-layer transformer; 1.47M and 2.95M training tokens p
 
 ## Claim scope
 
-In a deterministic synthetic tiny-pretraining proxy, a clean-to-mixed curation ladder improved broad held-out character-level language modeling loss versus uniform mixing under matched token budgets.
+In a deterministic synthetic tiny-pretraining proxy, a clean-to-mixed curation ladder improved broad held-out character-level language modeling loss versus uniform mixing under matched sequence-item budgets.
 
 ## Why it stopped
 

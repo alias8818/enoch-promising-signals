@@ -45,7 +45,7 @@ No-paper closure: this is a reproducible synthetic/tiny useful signal and direct
 
 ## Recommended next action
 
-Run a bounded real-text small-transformer follow-up that compares low-score and high-score cheap proxy selection against random, target-filter, and true-gradient controls at fixed token budgets.
+Run a bounded real-text small-transformer follow-up that compares low-score and high-score cheap proxy selection against random, target-filter, and true-gradient controls at fixed sequence-item budgets.
 
 ## Follow-up
 

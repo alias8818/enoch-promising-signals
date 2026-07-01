@@ -53,7 +53,7 @@ Run a bounded deepen follow-up with a real tokenized dataset/input pipeline and 
 - Recommended: `true`
 - Type: `deepen`
 - Title: GPT-2-small bf16 checkpointing with real dataloader and max-fit batch comparison
-- Success threshold: Checkpointing must reduce peak allocated CUDA memory by at least 25%, enable at least 1.3x larger max-fit batch at sequence length 1024, and keep end-to-end tokens/sec loss at or below 25% for the same fixed token budget.
+- Success threshold: Checkpointing must reduce peak allocated CUDA memory by at least 25%, enable at least 1.3x larger max-fit batch at sequence length 1024, and keep end-to-end tokens/sec loss at or below 25% for the same fixed sequence-item budget.
 - Stop condition: Stop as no-paper negative if memory savings fall below 25%, max-fit batch improves by less than 1.3x, or end-to-end throughput loss exceeds 25% after dataloader overhead is included.
 
 ## Evidence references

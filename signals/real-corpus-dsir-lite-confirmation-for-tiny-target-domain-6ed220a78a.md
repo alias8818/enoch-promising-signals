@@ -54,7 +54,7 @@ Stop this confirmation as no-paper negative/useful-signal evidence; only reopen 
 - Type: `deepen`
 - Title: Medium transformer/category sweep for DSIR-lite target-domain pretraining
 - Success threshold: DSIR-lite must beat random by at least 0.05 held-out target NLL on mean across categories and seeds, with no more than one category showing a negative effect.
-- Stop condition: Stop if DSIR-lite fails to beat random mean held-out target NLL in two categories after matched token budgets and identical training steps.
+- Stop condition: Stop if DSIR-lite fails to beat random mean held-out target NLL in two categories after matched sequence-item budgets and identical training steps.
 
 ## Evidence references
 

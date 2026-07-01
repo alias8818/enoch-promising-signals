@@ -38,7 +38,7 @@ This does not validate realistic pretraining broadly: it uses byte tokens, WikiT
 
 ## Claim scope
 
-In a small direct CUDA test using a 1.9M-parameter byte-level causal GPT on WikiText-2 with max context 128 and matched token budgets, a no-auxiliary 32->64->128 length curriculum improved final held-out context-128 validation loss versus fixed length 128 across three seeds.
+In a small direct CUDA test using a 1.9M-parameter byte-level causal GPT on WikiText-2 with max context 128 and matched sequence-item budgets, a no-auxiliary 32->64->128 length curriculum improved final held-out context-128 validation loss versus fixed length 128 across three seeds.
 
 ## Why it stopped
 
@@ -46,14 +46,14 @@ No-paper useful signal: bounded direct evidence supports the mechanism locally, 
 
 ## Recommended next action
 
-Run a bounded deepen follow-up with BPE tokenization and a GPT-2-small-class or parameter-matched tiny GPT on a larger realistic text corpus, preserving matched token budget and fixed-length control.
+Run a bounded deepen follow-up with BPE tokenization and a GPT-2-small-class or parameter-matched tiny GPT on a larger realistic text corpus, preserving matched sequence-item budget and fixed-length control.
 
 ## Follow-up
 
 - Recommended: `true`
 - Type: `deepen`
 - Title: BPE Tiny-GPT Length Curriculum Confirmation on Realistic Text
-- Success threshold: Curriculum mean final target-context validation loss is at least 0.02 nats better than fixed length, or not worse than 0.01 nats while materially reducing training wall-clock or memory at matched token budget, with no seed worse by more than 0.02 nats.
+- Success threshold: Curriculum mean final target-context validation loss is at least 0.02 nats better than fixed length, or not worse than 0.01 nats while materially reducing training wall-clock or memory at matched sequence-item budget, with no seed worse by more than 0.02 nats.
 - Stop condition: Stop if curriculum is worse than fixed length by more than 0.02 nats mean target-context validation loss after the target-length phase, or if schedule-boundary recovery fails in two independent seeds.
 
 ## Evidence references

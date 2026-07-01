@@ -45,7 +45,7 @@ Bounded proxy evidence does not support the hypothesis that simple easy-to-hard 
 
 ## Recommended next action
 
-Stop this run as no-paper useful evidence; the concrete next bounded test is a tiny transformer/token-level LM curriculum comparison that reports both learning-curve AUC and final validation loss under matched token budgets.
+Stop this run as no-paper useful evidence; the concrete next bounded test is a tiny transformer/token-level LM curriculum comparison that reports both learning-curve AUC and final validation loss under matched sequence-item budgets.
 
 ## Follow-up
 

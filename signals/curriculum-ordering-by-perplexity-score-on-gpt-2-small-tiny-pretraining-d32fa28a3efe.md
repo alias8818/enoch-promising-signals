@@ -37,7 +37,7 @@ This run did not train GPT-2-small, did not use GPT-2-small as the scorer, used 
 
 ## Claim scope
 
-In a bounded CPU NumPy tiny-LM proxy, naive monotonic document ordering by a frozen reference perplexity score underperformed random ordering under matched token budgets.
+In a bounded CPU NumPy tiny-LM proxy, naive monotonic document ordering by a frozen reference perplexity score underperformed random ordering under matched sequence-item budgets.
 
 ## Why it stopped
 

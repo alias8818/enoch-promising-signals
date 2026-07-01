@@ -45,7 +45,7 @@ Proxy/early bounded result rather than full validation: evidence comes from a to
 
 ## Recommended next action
 
-Stop this run as a no-paper useful-signal proxy result; the concrete next bounded test is a tiny transformer validation on a real duplicated text corpus with matched token budget and a predefined improvement threshold above seed noise.
+Stop this run as a no-paper useful-signal proxy result; the concrete next bounded test is a tiny transformer validation on a real duplicated text corpus with matched sequence-item budget and a predefined improvement threshold above seed noise.
 
 ## Follow-up
 

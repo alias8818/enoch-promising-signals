@@ -45,7 +45,7 @@ Closed as no-paper useful signal because the evidence supports the mechanism onl
 
 ## Recommended next action
 
-Run a bounded neural follow-up with a real tokenizer, a 5M-25M parameter transformer, and a small public text corpus to test whether proxy valuation still improves validation loss at fixed token budget.
+Run a bounded neural follow-up with a real tokenizer, a 5M-25M parameter transformer, and a small public text corpus to test whether proxy valuation still improves validation loss at fixed sequence-item budget.
 
 ## Follow-up
 

@@ -52,7 +52,7 @@ Run a bounded real-corpus follow-up with held-out validation perplexity, 3 seeds
 - Recommended: `true`
 - Type: `deepen`
 - Title: Real-corpus GPT-2-small INT8-weight QAT validation with held-out perplexity
-- Success threshold: QAT validation perplexity within 2 percent of BF16 baseline at matched token budget, no divergence across seeds, and exported INT8 inference showing a concrete memory or latency benefit.
+- Success threshold: QAT validation perplexity within 2 percent of BF16 baseline at matched sequence-item budget, no divergence across seeds, and exported INT8 inference showing a concrete memory or latency benefit.
 - Stop condition: Stop if QAT diverges in 2 or more seeds, validation perplexity remains more than 5 percent worse than BF16 after basic LR/delayed-QAT tuning, or exported INT8 inference provides no measurable deployment benefit.
 
 ## Evidence references

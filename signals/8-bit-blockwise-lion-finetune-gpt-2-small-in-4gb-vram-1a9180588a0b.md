@@ -52,8 +52,8 @@ Stop this run as no-paper useful signal; a bounded follow-up should enforce a ha
 - Recommended: `true`
 - Type: `deepen`
 - Title: Hard-cap 4 GiB GPT-2-small finetune optimizer comparison
-- Success threshold: 8-bit blockwise Lion completes a configuration that AdamW cannot complete under the same hard 4 GiB cap, while validation loss after a fixed token budget is within 5% of AdamW at AdamW's best fitting configuration.
-- Stop condition: Stop if AdamW fits every practically relevant configuration that 8-bit blockwise Lion fits, or if 8-bit blockwise Lion shows more than 5% worse validation loss at matched token budget.
+- Success threshold: 8-bit blockwise Lion completes a configuration that AdamW cannot complete under the same hard 4 GiB cap, while validation loss after a fixed sequence-item budget is within 5% of AdamW at AdamW's best fitting configuration.
+- Stop condition: Stop if AdamW fits every practically relevant configuration that 8-bit blockwise Lion fits, or if 8-bit blockwise Lion shows more than 5% worse validation loss at matched sequence-item budget.
 
 ## Evidence references
 

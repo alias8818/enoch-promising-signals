@@ -52,7 +52,7 @@ Stop this run as no-paper useful signal; if deepening, run a small neural LM on 
 - Recommended: `true`
 - Type: `deepen`
 - Title: Neural Tiny-LM Perplexity Filter Ladder on Real Mixed-Quality Text
-- Success threshold: Ladder mean held-out loss is at least 2% lower than the best one-shot threshold control and wins on at least 3 of 3 seeds under matched token budget.
+- Success threshold: Ladder mean held-out loss is at least 2% lower than the best one-shot threshold control and wins on at least 3 of 3 seeds under matched sequence-item budget.
 - Stop condition: Stop if ladder fails to beat the best one-shot threshold control or if the run would exceed local CPU budget without GPU/model-hardware justification.
 
 ## Evidence references

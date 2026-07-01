@@ -41,7 +41,7 @@ In a synthetic online key-value retrieval task with a 118k-parameter causal tran
 
 ## Why it stopped
 
-Proxy synthetic evidence falsified the tested naive length-stratified sampling mechanism under matched token budgets; this is not a full natural-language validation.
+Proxy synthetic evidence falsified the tested naive length-stratified sampling mechanism under matched sequence-item budgets; this is not a full natural-language validation.
 
 ## Recommended next action
 

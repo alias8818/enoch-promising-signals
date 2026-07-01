@@ -44,7 +44,7 @@ The run produced reproducible proxy evidence but did not train GPT-2-small; dire
 
 ## Recommended next action
 
-Stop this CPU-worker run as no-paper useful-signal evidence; only reopen on a GPU-capable worker for direct GPT-2-small-class mixture validation with real text and matched token budgets.
+Stop this CPU-worker run as no-paper useful-signal evidence; only reopen on a GPU-capable worker for direct GPT-2-small-class mixture validation with real text and matched sequence-item budgets.
 
 ## Follow-up
 

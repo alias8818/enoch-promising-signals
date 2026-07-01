@@ -46,7 +46,7 @@ Naive adaptive accumulation failed the Tier 1 efficiency signal under counterbal
 
 ## Recommended next action
 
-Run one bounded deepen test with matched token budget and matched optimizer-update count using a length-bucketed adaptive micro-batch scheduler; stop if it fails to reduce padding by at least 10 percent and improve tokens/sec by at least 5 percent without eval-loss regression.
+Run one bounded deepen test with matched sequence-item budget and matched optimizer-update count using a length-bucketed adaptive micro-batch scheduler; stop if it fails to reduce padding by at least 10 percent and improve tokens/sec by at least 5 percent without eval-loss regression.
 
 ## Follow-up
 

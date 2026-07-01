@@ -53,7 +53,7 @@ Run a bounded neural follow-up on naturally mixed small corpus shards using the 
 - Type: `deepen`
 - Title: Neural small-LM perplexity pruning on naturally mixed corpus shards
 - Success threshold: Keep-low-reference-PPL improves held-out neural LM loss versus random equal-budget pruning in at least 3 of 3 seeds and beats all-data while keep-high-reference-PPL is worse than random.
-- Stop condition: Stop as negative if low-PPL pruning fails to beat random equal-budget in two or more seeds or if gains only occur because of unmatched token budget or leaked held-out/domain labels.
+- Stop condition: Stop as negative if low-PPL pruning fails to beat random equal-budget in two or more seeds or if gains only occur because of unmatched sequence-item budget or leaked held-out/domain labels.
 
 ## Evidence references
 

@@ -45,7 +45,7 @@ Closed as no-paper useful signal because this was a proxy early test, not direct
 
 ## Recommended next action
 
-Run a bounded deepen follow-up with a tiny Transformer and real text domains, comparing natural, equal-balanced, square-root, and minority-boosted mixtures at matched token budgets.
+Run a bounded deepen follow-up with a tiny Transformer and real text domains, comparing natural, equal-balanced, square-root, and minority-boosted mixtures at matched sequence-item budgets.
 
 ## Follow-up
 
